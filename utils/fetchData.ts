@@ -27,3 +27,9 @@ export async function getShowBySlug(slug: string) {
   const shows = await getShows();
   return shows.find((show: any) => show.id === slug);
 }
+
+export async function getActors() {
+  const filePath = path.join(process.cwd(), "data", "actors.json");
+  const fileContents = fs.readFileSync(filePath, "utf8");
+  return JSON.parse(fileContents);
+}
