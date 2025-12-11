@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Play, Info, Volume2, VolumeX } from "lucide-react"
+import { Telescope, Plus, Volume2, VolumeX } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Movie } from "@/types/movie"
 
@@ -78,16 +78,16 @@ export default function Hero({ movie }: HeroProps) {
             </p>
 
             <div className="flex items-center gap-4 pt-4">
-              <Button size="lg" className="bg-white text-black hover:bg-white/90 gap-2 text-lg px-8 h-14">
-                <Play className="h-6 w-6 fill-black" />
-                Play
-              </Button>
               <Link href={`/movies/${movie.id}`}>
-                <Button size="lg" variant="secondary" className="bg-gray-500/50 text-white hover:bg-gray-500/40 gap-2 text-lg px-8 h-14 backdrop-blur-sm">
-                  <Info className="h-6 w-6" />
-                  More Info
+                <Button size="lg" className="bg-white text-black hover:bg-white/90 gap-2 text-lg px-8 h-14">
+                  <Telescope className="h-6 w-6 fill-black" />
+                  Explore
                 </Button>
               </Link>
+              <Button size="lg" variant="secondary" className="bg-gray-500/50 text-white hover:bg-gray-500/40 gap-2 text-lg px-8 h-14 backdrop-blur-sm">
+                <Plus className="h-6 w-6" />
+                WatchList
+              </Button>
             </div>
           </div>
         </div>

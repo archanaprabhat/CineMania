@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
   }
 
   return {
-    title: `${actor.name} - Netflix Clone`,
+    title: `${actor.name} - Cinematic`,
     description: `Movies and TV shows featuring ${actor.name}.`,
   }
 }

@@ -1,12 +1,12 @@
 import { getMovies, getShows, getActors } from "@/utils/fetchData";
 import { getLandingData } from "@/utils/landingHelpers";
 
-import LandingHero from "./landing/components/LandingHero";
-import Stats from "./landing/components/Stats";
-import PosterMarquee from "./landing/components/PosterMarquee";
-import Features from "./landing/components/Features";
-import CTA from "./landing/components/CTA";
-import Footer from "./landing/components/Footer";
+import LandingHero from "./components/LandingHero";
+import Stats from "./components/Stats";
+import PosterMarquee from "./components/PosterMarquee";
+import Features from "./components/Features";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 export const revalidate = 86400; // 24 hrs (ISR)
 
@@ -28,11 +28,11 @@ export default async function LandingPage() {
     getActors(),
   ]);
 
-  const { posters } = getLandingData({ movies, shows });
+  const { heroMovie, posters } = getLandingData({ movies, shows });
 
   return (
     <main className="min-h-screen bg-background text-foreground selection:bg-primary selection:text-white">
-      <LandingHero />
+      <LandingHero movie={heroMovie} />
 
       <Stats
         movieCount={movies.length}
@@ -45,6 +45,8 @@ export default async function LandingPage() {
       <Features />
 
       <CTA />
+
+      <Footer />
     </main>
   );
 }

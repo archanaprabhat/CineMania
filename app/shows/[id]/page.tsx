@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
   }
 
   return {
-    title: `${show.name} - Netflix Clone`,
+    title: `${show.name} - Cinematic`,
     description: show.overview,
   }
 }
@@ -100,22 +100,24 @@ export default async function ShowDetailPage({ params }: { params: { id: string 
               </div>
 
               <div className="flex flex-wrap items-center gap-6 text-sm md:text-base text-gray-300">
-                <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-md border border-white/10">
-                  <Calendar className="h-4 w-4" />
-                  <span className="font-medium">{new Date(show.first_air_date).getFullYear()}</span>
+                <div className="flex items-center gap-2 bg-black/40 dark:bg-white/10 px-4 py-2 rounded-full backdrop-blur-md border border-white/10 shadow-sm">
+                  <Calendar className="h-4 w-4 text-white" />
+                  <span className="font-medium text-white">{new Date(show.first_air_date).getFullYear()}</span>
                 </div>
-                <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-md border border-white/10">
-                  <Clock className="h-4 w-4" />
-                  <span className="font-medium">{formatRuntime(show.episode_run_time)}</span>
-                </div>
-                <div className="flex items-center gap-2 bg-yellow-500/20 text-yellow-500 px-4 py-2 rounded-full backdrop-blur-md border border-yellow-500/20">
+                {show.episode_run_time && show.episode_run_time.length > 0 && (
+                  <div className="flex items-center gap-2 bg-black/40 dark:bg-white/10 px-4 py-2 rounded-full backdrop-blur-md border border-white/10 shadow-sm">
+                    <Clock className="h-4 w-4 text-white" />
+                    <span className="font-medium text-white">{formatRuntime(show.episode_run_time)}</span>
+                  </div>
+                )}
+                <div className="flex items-center gap-2 bg-yellow-500/20 text-yellow-500 px-4 py-2 rounded-full backdrop-blur-md border border-yellow-500/20 shadow-sm">
                   <Star className="h-4 w-4 fill-yellow-500" />
                   <span className="font-bold">{show.vote_average.toFixed(1)}</span>
                 </div>
-                {show.number_of_seasons && (
-                  <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-md border border-white/10">
-                    <Layers className="h-4 w-4" />
-                    <span className="font-medium">{show.number_of_seasons} Seasons</span>
+                {(show.number_of_seasons || 0) > 0 && (
+                  <div className="flex items-center gap-2 bg-black/40 dark:bg-white/10 px-4 py-2 rounded-full backdrop-blur-md border border-white/10 shadow-sm">
+                    <Layers className="h-4 w-4 text-white" />
+                    <span className="font-medium text-white">{show.number_of_seasons} Seasons</span>
                   </div>
                 )}
               </div>
@@ -147,8 +149,8 @@ export default async function ShowDetailPage({ params }: { params: { id: string 
           <div className="lg:col-span-8 space-y-16">
             {/* Overview */}
             <section className="space-y-6">
-              <h2 className="text-3xl font-bold text-white tracking-tight">Storyline</h2>
-              <p className="text-lg md:text-xl text-gray-300 leading-relaxed font-light">
+              <h2 className="text-3xl font-bold text-foreground dark:text-white tracking-tight">Storyline</h2>
+              <p className="text-lg md:text-xl text-muted-foreground dark:text-gray-300 leading-relaxed font-light">
                 {show.overview}
               </p>
             </section>
@@ -157,12 +159,12 @@ export default async function ShowDetailPage({ params }: { params: { id: string 
             {show.credits?.cast && show.credits.cast.length > 0 && (
               <section className="space-y-6">
                 <div className="flex items-center justify-between">
-                  <h2 className="text-3xl font-bold text-white tracking-tight">Top Cast</h2>
+                  <h2 className="text-3xl font-bold text-foreground dark:text-white tracking-tight">Top Cast</h2>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
                   {show.credits.cast.slice(0, 8).map((person) => (
                     <div key={person.id} className="group space-y-3">
-                      <div className="relative aspect-2/3 rounded-xl overflow-hidden bg-zinc-800 shadow-lg transition-transform duration-300 group-hover:scale-105">
+                      <div className="relative aspect-2/3 rounded-xl overflow-hidden bg-zinc-100 dark:bg-zinc-800 shadow-lg transition-transform duration-300 group-hover:scale-105">
                         {person.profile_path ? (
                           <Image
                             src={`https://image.tmdb.org/t/p/w300${person.profile_path}`}
@@ -171,15 +173,15 @@ export default async function ShowDetailPage({ params }: { params: { id: string 
                             className="object-cover"
                           />
                         ) : (
-                          <div className="flex h-full items-center justify-center text-zinc-500">
+                          <div className="flex h-full items-center justify-center text-zinc-400 dark:text-zinc-500">
                             No Image
                           </div>
                         )}
                         <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                       </div>
                       <div>
-                        <p className="font-semibold text-white text-lg leading-tight">{person.name}</p>
-                        <p className="text-sm text-gray-400">{person.character}</p>
+                        <p className="font-semibold text-foreground dark:text-white text-lg leading-tight">{person.name}</p>
+                        <p className="text-sm text-muted-foreground dark:text-gray-400">{person.character}</p>
                       </div>
                     </div>
                   ))}
@@ -190,45 +192,49 @@ export default async function ShowDetailPage({ params }: { params: { id: string 
 
           {/* Sidebar (Right 4/12) */}
           <div className="lg:col-span-4 space-y-8">
-            <div className="bg-zinc-900/50 rounded-2xl border border-white/5 p-8 space-y-8 backdrop-blur-sm">
+            <div className="bg-white/80 dark:bg-zinc-900/50 rounded-2xl border border-zinc-200/50 dark:border-white/10 p-8 space-y-8 backdrop-blur-xl shadow-lg">
               <div>
-                <h3 className="text-gray-400 text-sm font-medium uppercase tracking-wider mb-2">Status</h3>
-                <p className="text-xl text-white font-semibold">{show.status || 'Returning Series'}</p>
+                <h3 className="text-muted-foreground text-sm font-medium uppercase tracking-wider mb-2">Status</h3>
+                <p className="text-xl text-foreground dark:text-white font-semibold">{show.status || 'Returning Series'}</p>
               </div>
               
               <div>
-                <h3 className="text-gray-400 text-sm font-medium uppercase tracking-wider mb-2">Original Language</h3>
-                <p className="text-xl text-white font-semibold uppercase">{show.original_language}</p>
+                <h3 className="text-muted-foreground text-sm font-medium uppercase tracking-wider mb-2">Original Language</h3>
+                <p className="text-xl text-foreground dark:text-white font-semibold uppercase">{show.original_language}</p>
               </div>
 
               <div>
-                <h3 className="text-gray-400 text-sm font-medium uppercase tracking-wider mb-2">Type</h3>
-                <p className="text-xl text-white font-semibold">{show.type || 'Scripted'}</p>
+                <h3 className="text-muted-foreground text-sm font-medium uppercase tracking-wider mb-2">Type</h3>
+                <p className="text-xl text-foreground dark:text-white font-semibold">{show.type || 'Scripted'}</p>
               </div>
 
-              <div>
-                <h3 className="text-gray-400 text-sm font-medium uppercase tracking-wider mb-2">Seasons</h3>
-                <p className="text-xl text-white font-semibold">{show.number_of_seasons || 'N/A'}</p>
-              </div>
+              {(show.number_of_seasons || 0) > 0 && (
+                <div>
+                  <h3 className="text-muted-foreground text-sm font-medium uppercase tracking-wider mb-2">Seasons</h3>
+                  <p className="text-xl text-foreground dark:text-white font-semibold">{show.number_of_seasons}</p>
+                </div>
+              )}
 
-              <div>
-                <h3 className="text-gray-400 text-sm font-medium uppercase tracking-wider mb-2">Episodes</h3>
-                <p className="text-xl text-white font-semibold">{show.number_of_episodes || 'N/A'}</p>
-              </div>
+              {(show.number_of_episodes || 0) > 0 && (
+                <div>
+                  <h3 className="text-muted-foreground text-sm font-medium uppercase tracking-wider mb-2">Episodes</h3>
+                  <p className="text-xl text-foreground dark:text-white font-semibold">{show.number_of_episodes}</p>
+                </div>
+              )}
             </div>
 
             {/* Crew */}
-            {show.credits?.crew && (
-              <div className="bg-zinc-900/50 rounded-2xl border border-white/5 p-8 space-y-6 backdrop-blur-sm">
-                 <h3 className="text-xl font-bold text-white">Key Crew</h3>
+            {show.credits?.crew && show.credits.crew.filter(c => ['Executive Producer', 'Creator', 'Writer'].includes(c.job)).length > 0 && (
+              <div className="bg-white/80 dark:bg-zinc-900/50 rounded-2xl border border-zinc-200/50 dark:border-white/10 p-8 space-y-6 backdrop-blur-xl shadow-lg">
+                 <h3 className="text-xl font-bold text-foreground dark:text-white">Key Crew</h3>
                  <div className="space-y-4">
                    {show.credits.crew
                      .filter(c => ['Executive Producer', 'Creator', 'Writer'].includes(c.job))
                      .slice(0, 5)
                      .map((person, i) => (
-                       <div key={`${person.id}-${i}`} className="flex justify-between items-center border-b border-white/5 pb-3 last:border-0 last:pb-0">
-                         <span className="font-medium text-white">{person.name}</span>
-                         <span className="text-sm text-gray-400">{person.job}</span>
+                       <div key={`${person.id}-${i}`} className="flex justify-between items-center border-b border-zinc-200/50 dark:border-white/5 pb-3 last:border-0 last:pb-0">
+                         <span className="font-medium text-foreground dark:text-white">{person.name}</span>
+                         <span className="text-sm text-muted-foreground">{person.job}</span>
                        </div>
                      ))}
                  </div>
@@ -240,8 +246,8 @@ export default async function ShowDetailPage({ params }: { params: { id: string 
 
       {/* Similar Shows */}
       {similarShows.length > 0 && (
-        <div className="container mx-auto px-4 mt-8 space-y-8 border-t border-white/5 pt-16">
-          <h2 className="text-3xl font-bold text-white tracking-tight">You Might Also Like</h2>
+        <div className="container mx-auto px-4 mt-8 space-y-8 border-t border-zinc-200 dark:border-white/5 pt-16">
+          <h2 className="text-3xl font-bold text-foreground dark:text-white tracking-tight">You Might Also Like</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
             {similarShows.map((s) => (
               <ShowCard key={s.id} show={s} />

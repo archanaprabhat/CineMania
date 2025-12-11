@@ -8,8 +8,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Netflix Clone",
-  description: "A Netflix clone built with Next.js, TypeScript, and Tailwind CSS",
+  title: "Cinematic",
+  description: "A movie directory built with Next.js, TypeScript, and Tailwind CSS",
   icons: {
     icon: "/favicon.ico",
   },

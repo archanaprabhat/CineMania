@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 
   return {
-    title: `${genre.name} Movies - Netflix Clone`,
+    title: `${genre.name} Movies - Cinematic`,
     description: `Explore our collection of ${genre.name} movies.`,
   }
 }

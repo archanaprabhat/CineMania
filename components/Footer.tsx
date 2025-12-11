@@ -1,32 +1,15 @@
+import { Heart } from "lucide-react"
+
 export default function Footer() {
   return (
-    <footer className="w-full border-t bg-background py-6">
-      <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row md:gap-0">
-        <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-          Built by{" "}
-          <a
-            href="#"
-            target="_blank"
-            rel="noreferrer"
-            className="font-medium underline underline-offset-4"
-          >
-            Archana
-          </a>
-          wi
-          <a
-            href="#"
-            target="_blank"
-            rel="noreferrer"
-            className="font-medium underline underline-offset-4"
-          >
-            GitHub
-          </a>
-          .
+    <footer className="w-full border-t border-border/40 bg-background/95 backdrop-blur-sm py-8">
+      <div className="container mx-auto flex flex-col items-center justify-center gap-4 px-4 text-center">
+        <p className="flex items-center gap-2 text-sm font-medium text-muted-foreground/80 hover:text-primary transition-colors">
+          Made with <Heart className="h-4 w-4 fill-red-500 text-red-500 animate-pulse" /> Archana
         </p>
-        <div className="flex gap-4 text-sm text-muted-foreground">
-          <a href="#" className="hover:underline">Privacy Policy</a>
-          <a href="#" className="hover:underline">Terms of Service</a>
-        </div>
+        <p className="text-xs text-muted-foreground/60">
+          Built with Next.js 14, Tailwind CSS, and Framer Motion.
+        </p>
       </div>
     </footer>
   )
