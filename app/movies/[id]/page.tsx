@@ -4,6 +4,7 @@ import Image from "next/image"
 import { Star, Calendar, Clock } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import MovieCard from "@/components/MovieCard"
+import Link from "next/link"
 import genres from "@/data/genres.json"
 
 export async function generateStaticParams() {
@@ -67,11 +68,11 @@ export default async function MovieDetailPage({ params }: { params: { id: string
             priority
           />
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-t from-background via-transparent to-transparent" />
         
         <div className="container mx-auto px-4 h-full flex items-end pb-12 relative z-10">
           <div className="flex flex-col md:flex-row gap-8 items-end">
-            <div className="hidden md:block relative w-64 aspect-[2/3] rounded-lg overflow-hidden shadow-2xl border border-white/10">
+            <div className="hidden md:block relative w-64 aspect-2/3 rounded-lg overflow-hidden shadow-2xl border border-white/10">
               <Image
                 src={posterUrl}
                 alt={movie.title}
@@ -98,9 +99,11 @@ export default async function MovieDetailPage({ params }: { params: { id: string
               </p>
               <div className="flex gap-2 pt-2">
                 {movie.genre_ids.map((id) => (
-                  <span key={id} className="px-3 py-1 rounded-full bg-white/10 text-xs md:text-sm backdrop-blur-sm border border-white/20">
-                    {getGenreName(id)}
-                  </span>
+                  <Link key={id} href={`/movies?genre=${id}`}>
+                    <span className="px-3 py-1 rounded-full bg-white/10 text-xs md:text-sm backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:border-white/40 transition-all cursor-pointer">
+                      {getGenreName(id)}
+                    </span>
+                  </Link>
                 ))}
               </div>
             </div>

@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import { useSearchParams } from "next/navigation"
 import MovieCard from "@/components/MovieCard"
 import SearchAndFilterBar from "@/components/SearchAndFilterBar"
 import { Movie } from "@/types/movie"
@@ -11,10 +12,13 @@ interface MovieListingProps {
 }
 
 export default function MovieListing({ initialMovies }: MovieListingProps) {
+  const searchParams = useSearchParams()
+  const initialGenre = searchParams.get("genre") || "all"
+  
   const [movies] = useState<Movie[]>(initialMovies)
   const [filteredMovies, setFilteredMovies] = useState<Movie[]>(initialMovies)
   const [searchQuery, setSearchQuery] = useState("")
-  const [selectedGenre, setSelectedGenre] = useState("all")
+  const [selectedGenre, setSelectedGenre] = useState(initialGenre)
   const [sortOption, setSortOption] = useState("popular")
 
   useEffect(() => {

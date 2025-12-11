@@ -62,8 +62,8 @@ export default function Hero({ movie }: HeroProps) {
       )}
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/40 to-transparent" />
-      <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-r from-background/90 via-background/40 to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-t from-background via-transparent to-transparent" />
 
       {/* Content */}
       <div className="absolute inset-0 flex items-center">

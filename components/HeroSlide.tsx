@@ -42,7 +42,7 @@ export default function HeroSlide({ movie, isActive }: HeroSlideProps) {
   }, [isActive, trailerKey])
 
   const backdropUrl = movie.backdrop_path
-    ? `https://image.tmdb.org/t/p/original${movie.backdrop_path}`
+    ? `https://image.tmdb.org/t/p/w1280${movie.backdrop_path}`
     : null
 
   return (

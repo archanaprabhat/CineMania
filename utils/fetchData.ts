@@ -1,35 +1,45 @@
 import fs from "fs";
 import path from "path";
 
+// Simple in-memory cache
+let moviesCache: any = null;
+let showsCache: any = null;
+let actorsCache: any = null;
+
 export async function getMovies() {
+  if (moviesCache) return moviesCache;
+  
   const filePath = path.join(process.cwd(), "data", "movies.json");
   const fileContents = fs.readFileSync(filePath, "utf8");
-  return JSON.parse(fileContents);
+  moviesCache = JSON.parse(fileContents);
+  return moviesCache;
 }
 
 export async function getShows() {
+  if (showsCache) return showsCache;
+
   const filePath = path.join(process.cwd(), "data", "shows.json");
   const fileContents = fs.readFileSync(filePath, "utf8");
-  return JSON.parse(fileContents);
+  showsCache = JSON.parse(fileContents);
+  return showsCache;
+}
+
+export async function getActors() {
+  if (actorsCache) return actorsCache;
+
+  const filePath = path.join(process.cwd(), "data", "actors.json");
+  const fileContents = fs.readFileSync(filePath, "utf8");
+  actorsCache = JSON.parse(fileContents);
+  return actorsCache;
 }
 
 export async function getMovieBySlug(slug: string) {
-  // In a real app, slug would be unique. Here we assume ID or title slug.
-  // For simplicity, let's assume the slug is the ID for now, or we can generate a slug from title.
-  // The user asked for /movies/[slug]. Let's assume we find by ID if slug is ID, or title.
-  // Let's modify this to find by ID for simplicity as the JSON has IDs.
-  // But the URL is [slug]. Let's assume the slug is the ID.
   const movies = await getMovies();
-  return movies.find((movie: any) => movie.id === slug);
+  // Ensure we compare strings to strings or numbers to numbers
+  return movies.find((movie: any) => movie.id.toString() === slug.toString());
 }
 
 export async function getShowBySlug(slug: string) {
   const shows = await getShows();
-  return shows.find((show: any) => show.id === slug);
-}
-
-export async function getActors() {
-  const filePath = path.join(process.cwd(), "data", "actors.json");
-  const fileContents = fs.readFileSync(filePath, "utf8");
-  return JSON.parse(fileContents);
+  return shows.find((show: any) => show.id.toString() === slug.toString());
 }
