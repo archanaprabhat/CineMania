@@ -99,8 +99,35 @@ async function main() {
   const actors = await fetchPopularActors();
 
   // Combine and deduplicate
-  const allMovies = Array.from(new Map([...trendingMovies, ...topRatedMovies, ...nowPlayingMovies, ...upcomingMovies].map(m => [m.id, m])).values());
-  const allShows = Array.from(new Map([...trendingShows, ...topRatedShows, ...onTheAirShows].map(s => [s.id, s])).values());
+  let allMovies = Array.from(new Map([...trendingMovies, ...topRatedMovies, ...nowPlayingMovies, ...upcomingMovies].map(m => [m.id, m])).values());
+  let allShows = Array.from(new Map([...trendingShows, ...topRatedShows, ...onTheAirShows].map(s => [s.id, s])).values());
+
+  // Enrich with videos
+  console.log('Fetching videos for movies...');
+  allMovies = await Promise.all(allMovies.map(async (movie) => {
+    try {
+      const response = await api.get(`/movie/${movie.id}`, {
+        params: { append_to_response: 'videos' }
+      });
+      return { ...movie, videos: response.data.videos };
+    } catch (e) {
+      console.error(`Failed to fetch videos for movie ${movie.id}`);
+      return movie;
+    }
+  }));
+
+  console.log('Fetching videos for shows...');
+  allShows = await Promise.all(allShows.map(async (show) => {
+    try {
+      const response = await api.get(`/tv/${show.id}`, {
+        params: { append_to_response: 'videos' }
+      });
+      return { ...show, videos: response.data.videos };
+    } catch (e) {
+      console.error(`Failed to fetch videos for show ${show.id}`);
+      return show;
+    }
+  }));
 
   // Save to files
   const dataDir = path.join(process.cwd(), 'data');

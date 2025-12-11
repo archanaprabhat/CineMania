@@ -20,7 +20,119 @@
     "name": "Stranger Things",
     "vote_average": 8.6,
     "vote_count": 19463,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Stranger Things 5 | Official Trailer | Netflix",
+          "key": "PssKpzB0Ah0",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-10-30T13:00:00.000Z",
+          "id": "6906398f4f17566a552fe612"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Stranger Things 5 | Official Teaser | Netflix",
+          "key": "iKZyYdwS3Wg",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-07-16T14:00:00.000Z",
+          "id": "68fbef9d55f8d7b311a70650"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Stranger Things 4 | Volume 2 Trailer | Netflix",
+          "key": "sBEvEcpnG7k",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2022-06-21T14:00:00.000Z",
+          "id": "68fbf1481fbc3cbfa8a86a85"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Stranger Things 4 | Volume 1 Final Trailer | Netflix",
+          "key": "mVsJXiI60a0",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2022-05-23T14:00:27.000Z",
+          "id": "68fbf15ee55cc4dc6a7ac5cc"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Season 1 Trailer 1",
+          "key": "mnd7sFt5c3A",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2018-03-06T16:58:29.000Z",
+          "id": "61d875b73344c6001d527dbc"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Title Sequence",
+          "key": "-RcPZdihrp4",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Opening Credits",
+          "official": true,
+          "published_at": "2016-08-06T00:24:44.000Z",
+          "id": "5d272738caab6d0012974c66"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The First 8 Minutes - Series Opener",
+          "key": "CKtq-bZgS8I",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2016-07-14T19:00:23.000Z",
+          "id": "62d92b351065d3028d3b04b5"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Season 1 Official Final Trailer",
+          "key": "b9EkMc79ZSU",
+          "published_at": "2016-06-30T14:30:02.000Z",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "id": "579b5e61c3a368703800104b"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "\"Eleven\" - Featurette",
+          "key": "5lY5NJgJMBs",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Featurette",
+          "official": true,
+          "published_at": "2016-06-24T14:00:07.000Z",
+          "id": "62d9379b4a52f8004e153316"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -42,7 +154,131 @@
     "name": "IT: Welcome to Derry",
     "vote_average": 8.168,
     "vote_count": 679,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Opening Credits",
+          "key": "qwTop2qs1tE",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Opening Credits",
+          "official": true,
+          "published_at": "2025-10-31T15:00:25.000Z",
+          "id": "6904f0b172dfbeea4ee12338"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Invitation to the Set",
+          "key": "u8Bvr_nu-Wc",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Behind the Scenes",
+          "official": true,
+          "published_at": "2025-10-24T15:58:35.000Z",
+          "id": "68fc6dc6d927b68bb0926a04"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Red Band Trailer",
+          "key": "u4JE2AyqDII",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-10-14T16:00:10.000Z",
+          "id": "68eeabf4c867b510112be66d"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer",
+          "key": "oKa6u7LT0qE",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-09-23T16:00:07.000Z",
+          "id": "68d2ce24c535fe8294cecfb6"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "We've surely got trouble.",
+          "key": "NWC0sX7HpF4",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-07-31T19:00:32.000Z",
+          "id": "688ce33e916fb18cde61e5ed"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Teaser 2",
+          "key": "HtorEDAgjPM",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-07-27T15:00:02.000Z",
+          "id": "6886455ddaa869ed6516c689"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Teaser",
+          "key": "6HG-wsRsg8s",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-05-20T14:03:45.000Z",
+          "id": "682c8fdfbee6ea1318db31c1"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Don't miss IT.",
+          "key": "BEHon1UCGQU",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-05-19T15:00:26.000Z",
+          "id": "682b4be53c007aa7039e37a4"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "What did you see?",
+          "key": "qHHA1L1pi88",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2024-11-11T01:46:02.000Z",
+          "id": "6732f27da7fdc8608788ce24"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Coming In 2025",
+          "key": "Qi1mytFqOZ4",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2024-08-05T00:45:54.000Z",
+          "id": "66b18fa7f24ed966082feb7c"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -63,7 +299,10 @@
     "name": "The Boys from Brazil: Rise of the Bolsonaros",
     "vote_average": 7,
     "vote_count": 3,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": []
+    }
   },
   {
     "adult": false,
@@ -85,7 +324,71 @@
     "name": "Spartacus: House of Ashur",
     "vote_average": 5.891,
     "vote_count": 64,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Green Band Trailer",
+          "key": "sHl32450smA",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-10-30T16:30:08.000Z",
+          "id": "6905780a08f8da6b684c7db5"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Uncensored Red Band Trailer",
+          "key": "ENNZqb5aKhc",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-10-30T16:30:06.000Z",
+          "id": "690577f23db6c50eb347223d"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Ashur (Nick E. Tarabay) Returns",
+          "key": "BzQUAbCd7lI",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Featurette",
+          "official": true,
+          "published_at": "2025-10-17T21:00:04.000Z",
+          "id": "68f5244818fb5e9e8c00dda9"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Teaser",
+          "key": "09l-Vwha48c",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-07-26T23:00:05.000Z",
+          "id": "6885c56ab357b167298a6a3c"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Tease",
+          "key": "ZrlQLywyZDI",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-01-15T17:00:06.000Z",
+          "id": "678831a655e49bed5e97635e"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -108,7 +411,23 @@
     "name": "Supernatural",
     "vote_average": 8.3,
     "vote_count": 8101,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Supernatural | Extended Trailer (2014)",
+          "key": "yy96yJjkvjo",
+          "published_at": "2014-09-16T00:30:01.000Z",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": false,
+          "id": "59c1fe5092514176ad007944"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -131,7 +450,35 @@
     "name": "Law & Order: Special Victims Unit",
     "vote_average": 7.936,
     "vote_count": 4070,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Benson and Stabler: A Look Back at a 25-Year Partnership | Law & Order: SVU | NBC",
+          "key": "MhGI_1DIhxw",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Featurette",
+          "official": true,
+          "published_at": "2023-12-22T20:00:09.000Z",
+          "id": "66c29456177cc794856e28ff"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Opening Title Sequence (Theme Song)",
+          "key": "IRXNVdiqMuU",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Opening Credits",
+          "official": true,
+          "published_at": "2019-03-15T16:52:37.000Z",
+          "id": "613d35b6af9590009011b8a0"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -152,7 +499,35 @@
     "name": "Grey's Anatomy",
     "vote_average": 8.2,
     "vote_count": 10706,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Featurette",
+          "key": "2S8nZXvsc5Y",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Featurette",
+          "official": true,
+          "published_at": "2024-03-08T17:50:25.000Z",
+          "id": "65ffa406b84cdd017df4f578"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Grey's Anatomy 2005 | Trailer | Amazon Prime Video",
+          "key": "qbkEtYz9acA",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": false,
+          "published_at": "2020-10-29T20:26:46.000Z",
+          "id": "5f9b26626332f7003783d4b0"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -175,7 +550,23 @@
     "name": "The Rookie",
     "vote_average": 8.516,
     "vote_count": 2788,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Trailer",
+          "key": "8BPlx6eK1vc",
+          "site": "YouTube",
+          "size": 720,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2018-05-15T20:15:30.000Z",
+          "id": "676acbb38594633963a9d908"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -198,7 +589,23 @@
     "name": "NCIS",
     "vote_average": 7.623,
     "vote_count": 2418,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "NCIS  - Trailer",
+          "key": "BhtDgn31XZo",
+          "site": "YouTube",
+          "size": 360,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2007-12-21T21:41:04.000Z",
+          "id": "6729ccc006dc885963240003"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -221,7 +628,95 @@
     "name": "Game of Thrones",
     "vote_average": 8.46,
     "vote_count": 25894,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Game of Thrones | Official Series Trailer",
+          "key": "KPLWWIOCOOQ",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2021-04-05T16:00:07.000Z",
+          "id": "64ec59a7e894a60101224a01"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Inside Game of Thrones: A Story in Camera Work",
+          "key": "y2ZJ3lTaREY",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Behind the Scenes",
+          "official": true,
+          "published_at": "2019-03-25T14:00:06.000Z",
+          "id": "5c999b48c3a36863b73b9d42"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Inside Game of Thrones: A Story in Prosthetics",
+          "key": "f3MUpuRF6Ck",
+          "site": "YouTube",
+          "size": 720,
+          "type": "Behind the Scenes",
+          "official": true,
+          "published_at": "2019-03-11T14:00:03.000Z",
+          "id": "5c92c2519251412b51773135"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Opening Credits",
+          "key": "s7L2PVdrb_8",
+          "site": "YouTube",
+          "size": 720,
+          "type": "Opening Credits",
+          "official": true,
+          "published_at": "2011-04-18T20:20:02.000Z",
+          "id": "6233756fba131b001f875249"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer",
+          "key": "BpJYNVhGf1s",
+          "site": "YouTube",
+          "size": 720,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2011-03-04T04:21:14.000Z",
+          "id": "5c9295200e0a267cd8168bd8"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Iron Throne Preview",
+          "key": "hhqRmcsWqac",
+          "site": "YouTube",
+          "size": 720,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2011-01-15T01:59:02.000Z",
+          "id": "6639c6fc3a48c501344fb627"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Inside Game of Thrones",
+          "key": "nf5YvIn6XB8",
+          "site": "YouTube",
+          "size": 360,
+          "type": "Featurette",
+          "official": true,
+          "published_at": "2011-01-10T19:53:20.000Z",
+          "id": "6639c72a3a48c5012b4fbd10"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -243,7 +738,47 @@
     "name": "Shameless",
     "vote_average": 8.165,
     "vote_count": 3118,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Season 1 Trailer",
+          "key": "9tvkYS5cA58",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2014-07-08T21:04:30.000Z",
+          "id": "653565e5abdafc010c299359"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Shameless Main Title Sequence",
+          "key": "nu9mslgDcR4",
+          "published_at": "2014-01-31T17:57:37.000Z",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Opening Credits",
+          "official": true,
+          "id": "552e28e5c3a3686be20023f9"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "'Wild & Unapologetic Gallaghers' Tease",
+          "key": "CHstRRD_8LE",
+          "published_at": "2010-12-29T19:01:38.000Z",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "id": "5560a5a4c3a3683d130049f6"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -266,7 +801,35 @@
     "name": "The Simpsons",
     "vote_average": 8.012,
     "vote_count": 10479,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "32 Seasons | The Simpsons | Disney+",
+          "key": "_jgYEYERYFQ",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2021-09-10T17:00:31.000Z",
+          "id": "6373c5d021621b00cd6438a9"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Simpsons",
+          "key": "DX1iplQQJTo",
+          "published_at": "2010-10-10T14:20:47.000Z",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Opening Credits",
+          "official": false,
+          "id": "5336dbb79251417db4000ed8"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -289,7 +852,47 @@
     "name": "Dexter",
     "vote_average": 8.2,
     "vote_count": 5094,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer",
+          "key": "YQeUmSD1c3g",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2016-08-24T15:55:35.000Z",
+          "id": "668456a0c6d339e3811b9c0e"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Morning Routine",
+          "key": "ej8-Rqo-VT4",
+          "published_at": "2006-09-29T22:11:47.000Z",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Opening Credits",
+          "official": true,
+          "id": "59c39f6b9251415b540116ab"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "'Serial Killer by Night' Tease",
+          "key": "1UJz0O2NjOo",
+          "published_at": "2006-09-14T22:02:51.000Z",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "id": "59c39faa9251415b54011714"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -311,7 +914,23 @@
     "name": "Breaking Bad",
     "vote_average": 8.936,
     "vote_count": 16656,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Series Trailer",
+          "key": "XZ8daibM3AE",
+          "published_at": "2013-03-25T16:28:54.000Z",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": true,
+          "id": "5759db2fc3a3683e7c003df7"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -333,7 +952,23 @@
     "name": "The Abandons",
     "vote_average": 5.8,
     "vote_count": 43,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer",
+          "key": "UtZ1qya0X2M",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-11-05T16:00:00.000Z",
+          "id": "690b98ee5cb707207b613cbf"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -355,7 +990,155 @@
     "name": "Law & Order",
     "vote_average": 7.4,
     "vote_count": 649,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Botched Burglary Leaves Cop Dead | Law & Order",
+          "key": "nmbhMI41z6Q",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": false,
+          "published_at": "2025-05-20T14:01:29.000Z",
+          "id": "682ed9ce2a15db024c7ba43b"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Getting Her Mother Killed Through Social Media | Law & Order",
+          "key": "1d1PVw9b1U0",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": false,
+          "published_at": "2025-05-16T16:00:06.000Z",
+          "id": "682ed97d2c8c0016b9343de0"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Teenage Boys Take Advantage Of A Disabled Girl | Law & Order",
+          "key": "-Z8Tdm2eLrs",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": false,
+          "published_at": "2022-05-20T16:00:00.000Z",
+          "id": "682eda444893b3a048d5c017"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Law & Order Season 21 Title Card, Intro & Court date (Theme Song)",
+          "key": "87q84CdVVP8",
+          "site": "YouTube",
+          "size": 720,
+          "type": "Opening Credits",
+          "official": false,
+          "published_at": "2022-03-01T18:15:30.000Z",
+          "id": "682ed85da5e10a0f715ed37c"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Four Cops Brutally Killed | Law & Order",
+          "key": "y2_9vDDigeY",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": false,
+          "published_at": "2021-12-03T20:00:18.000Z",
+          "id": "682eda0b650855391c7ba414"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Piano Teacher, Child Molester | Law & Order",
+          "key": "r5HNozWfZb4",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": false,
+          "published_at": "2021-11-25T21:00:20.000Z",
+          "id": "682edb11923be00883d5bfb8"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "She Hasn't Been 16 in Quite Some Time - Law & Order",
+          "key": "-J9OuSSTgB8",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": false,
+          "published_at": "2020-07-25T16:00:01.000Z",
+          "id": "682eda7d6370150ec8343dc6"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Law & Order – \"Blame It On Conspiracy\"",
+          "key": "04XZCYUopYI",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": false,
+          "published_at": "2018-05-16T14:01:22.000Z",
+          "id": "682edafc256bc3ed1d5ed374"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Law and Order Trailer",
+          "key": "RzN8cPlcMTU",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2016-06-22T01:57:09.000Z",
+          "id": "62cac70f90b87e0757220ff5"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Law & Order (2010) Intro",
+          "key": "mHWRo_MVeI0",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Opening Credits",
+          "official": false,
+          "published_at": "2010-05-15T00:17:32.000Z",
+          "id": "682ed75d3ea2a49abdd5bf7c"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Law & Order (2009-2010) Intro",
+          "key": "Yk9BQQqPLA4",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Opening Credits",
+          "official": false,
+          "published_at": "2009-12-12T22:42:23.000Z",
+          "id": "682ed73d9ad3d2cb483af60e"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Law & Order (1990-1991) Intro",
+          "key": "TzJm9vTCff8",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Opening Credits",
+          "official": false,
+          "published_at": "2009-12-12T21:31:15.000Z",
+          "id": "682ed69521ac412f697ba440"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -377,7 +1160,23 @@
     "name": "Family Guy",
     "vote_average": 7.387,
     "vote_count": 4730,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Family Guy (1999) - DVD Trailer",
+          "key": "J32iwo65RMc",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2019-12-05T02:23:00.000Z",
+          "id": "6580b6ee8dbc3308b099b3a3"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -400,7 +1199,59 @@
     "name": "House",
     "vote_average": 8.583,
     "vote_count": 7202,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Tapeworm Builds a Wall | House M.D..",
+          "key": "mLUeyxm2MKY",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2022-01-30T17:00:22.000Z",
+          "id": "66ee10a24a7f0b18b025d451"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "A Miracle Cure For Kindergarten Teacher's Mysterious Tapeworm | House M.D..",
+          "key": "_jITAShxYX0",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2022-01-25T17:00:32.000Z",
+          "id": "66ee10d26c3b7a8d648cfdce"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Death Has No Dignity | House M.D..",
+          "key": "YoFKWWtIHSc",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2020-12-08T18:58:43.000Z",
+          "id": "66ee117b7300a5ba213aeb5f"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "House Season 1 | Trailer | iflix",
+          "key": "MczMB8nU1sY",
+          "site": "YouTube",
+          "size": 720,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2016-09-09T09:30:31.000Z",
+          "id": "67420b331bcb2c093805aca0"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -423,7 +1274,35 @@
     "name": "The Blacklist",
     "vote_average": 7.6,
     "vote_count": 3429,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Reddington surrenders himself to the FBI",
+          "key": "SoT5JImB1H8",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": false,
+          "published_at": "2016-02-09T19:41:34.000Z",
+          "id": "5ec42b5a3d3557001eeae23a"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Blacklist Official Trailer   NBC   2013",
+          "key": "JGBIimq1I3A",
+          "site": "YouTube",
+          "size": 360,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2013-09-01T09:30:40.000Z",
+          "id": "67b73dc4e484fc21541a1d9b"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -446,7 +1325,23 @@
     "name": "Criminal Minds",
     "vote_average": 8.3,
     "vote_count": 3959,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Criminal Minds Trailer",
+          "key": "NTYxiJBbEZk",
+          "site": "YouTube",
+          "size": 720,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-09-18T18:43:40.000Z",
+          "id": "5cc5d91f9251415cd2f96706"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -470,7 +1365,71 @@
     "name": "Frieren: Beyond Journey's End",
     "vote_average": 8.8,
     "vote_count": 580,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Netflix Trailer [Subtitled]",
+          "key": "01WEqntM1NI",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-02-22T13:00:00.000Z",
+          "id": "67bbeccf286bde3a090a7559"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Netflix Trailer [Subtitled]",
+          "key": "Y3l9RTUiYy0",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-01-30T03:00:00.000Z",
+          "id": "665c1e63fd162bf3715b7e3e"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Launch Trailer [Subtitled]",
+          "key": "qgQunxD0qCk",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2023-09-29T15:00:51.000Z",
+          "id": "651712f1a199a6011b224282"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Prime Video Trailer [Subtitled]",
+          "key": "94i5TO_lcuw",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2023-09-29T03:34:52.000Z",
+          "id": "657031a2fad8e900c629d6c2"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer [Subtitled]",
+          "key": "Iwr1aLEDpe4",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2023-07-15T15:30:03.000Z",
+          "id": "64b2c26237806200ff3891d6"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -492,7 +1451,83 @@
     "name": "Arcane",
     "vote_average": 8.752,
     "vote_count": 5515,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Franchise Trailer",
+          "key": "W4gLFBNGgiY",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-12-05T16:00:04.000Z",
+          "id": "67521c9eb1eaa5c891dae448"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Final Trailer",
+          "key": "3Svs_hl897c",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2021-10-31T15:00:01.000Z",
+          "id": "617fcd72c7c224006566cca3"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer",
+          "key": "fXmAurh012s",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2021-09-25T17:50:01.000Z",
+          "id": "614fdd7fb0460500285f8e14"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "A Score To Settle",
+          "key": "zP7AGWiw8Uw",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": false,
+          "published_at": "2021-06-11T16:06:20.000Z",
+          "id": "6598577f1d1bf4014d228b5b"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Announcement",
+          "key": "_WtVfkTGFvo",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2021-05-03T15:34:31.000Z",
+          "id": "60901fb31108a80024f991a0"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Animated Series Announcement",
+          "key": "IA-v_LB3Qpc",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": false,
+          "published_at": "2019-10-16T01:47:56.000Z",
+          "id": "5da7a66b944a57001323d24e"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -515,7 +1550,35 @@
     "name": "Avatar: The Last Airbender",
     "vote_average": 8.752,
     "vote_count": 4573,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Avatar The Last Airbender 15th Anniversary Trailer [4K]",
+          "key": "IyZ0xetSb9s",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2020-08-21T16:21:36.000Z",
+          "id": "62082fbdfab3fa00679c5407"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "\"Avatar: The Last Airbender\" Theme Song (HQ) | Episode Opening Credits | Nick Animation",
+          "key": "d1EnW4kn1kg",
+          "published_at": "2016-03-10T18:24:31.000Z",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Opening Credits",
+          "official": true,
+          "id": "5a8b78039251410a1f081de0"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -536,7 +1599,47 @@
     "name": "When Life Gives You Tangerines",
     "vote_average": 8.722,
     "vote_count": 427,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer [Subtitled]",
+          "key": "4ECAaQkNAbc",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-02-21T00:00:00.000Z",
+          "id": "67b7d128bc84d56cbeba3822"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Teaser [ENG SUB]",
+          "key": "Ti5ymnPxSd0",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-02-07T00:00:01.000Z",
+          "id": "67a5e1f44dc052ba5585e7b4"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Date Announcement [ENG SUB]",
+          "key": "_HQF_ZjCQeI",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-01-23T00:00:01.000Z",
+          "id": "6791e74a7c2da21c06b5760b"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -559,7 +1662,35 @@
     "name": "One Piece",
     "vote_average": 8.722,
     "vote_count": 5063,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Happy 26th Anniversary to ONE PIECE [Subtitled]",
+          "key": "tnj5YOZpCyo",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Featurette",
+          "official": true,
+          "published_at": "2025-10-20T21:02:37.000Z",
+          "id": "68f7b96df2f952e8e6ada3ae"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "We're Just Getting Started Trailer",
+          "key": "1KMcoJBMWE4",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-01-22T15:00:02.000Z",
+          "id": "67bcdf0023fe117ee6a48587"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -583,7 +1714,23 @@
     "name": "Fullmetal Alchemist: Brotherhood",
     "vote_average": 8.7,
     "vote_count": 2298,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Fullmetal Alchemist Brotherhood - Trailer",
+          "key": "RNwNA1M8A94",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2016-10-09T17:02:34.000Z",
+          "id": "68fdacdb9d4c9d335093888d"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -606,7 +1753,671 @@
     "name": "The Chosen",
     "vote_average": 8.701,
     "vote_count": 698,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Mary's Psalm: \"The Darkness is not dark to You\" (The Chosen Scene)",
+          "key": "p-hVhnfeoqg",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2025-04-20T13:01:30.000Z",
+          "id": "6808066515a1d5a614aa9413"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Jesus Goes the Extra Mile (Matthew 5:41)",
+          "key": "vnpcrpfvKR8",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2025-03-09T13:01:15.000Z",
+          "id": "6808068115a1d5a614aa942b"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Last Supper Official Trailer (Season 5)",
+          "key": "5CVj41dtkIA",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-02-20T15:00:06.000Z",
+          "id": "6806b55c6e1a769e81ee6c8e"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "A Story Nearing Its End (The Chosen Scene)",
+          "key": "9XN8Ifz1OUI",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2025-01-24T23:06:43.000Z",
+          "id": "68080699c3e8e74b6deebdb6"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen Season 5 Sneak Peek: Confrontation Over Jesus",
+          "key": "nyPDSqv7fhs",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2025-01-19T20:22:49.000Z",
+          "id": "680806ad6e1a769e81eec02e"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen Season 5 Sneak Peek: Jesus Wants Judas' Heart",
+          "key": "b_3qginak7c",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2025-01-12T14:00:42.000Z",
+          "id": "680806bfac02d4407bab1ff0"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Jesus and the Disciples Celebrate Hanukkah (The Chosen Scene)",
+          "key": "oz0YM6Z1sVc",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2024-12-29T14:00:51.000Z",
+          "id": "680806cfb659822812eeabe0"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen Season 5 SNEAK PEEK: An Unexpected Wedding Guest",
+          "key": "rGTMtrjS28Y",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2024-12-25T14:00:57.000Z",
+          "id": "680806e1c3e8e74b6deebde3"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Shepherds Find Baby Jesus (Luke 2)",
+          "key": "EyUOpSddDmg",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2024-12-22T14:00:13.000Z",
+          "id": "680806f2c3e8e74b6deebdee"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Birth of Jesus (Luke 2)",
+          "key": "TWMOV1Xg6nQ",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2024-12-17T14:10:31.000Z",
+          "id": "68080707b2b722aedf89c76c"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Angels Announce the Birth of Jesus to Shepherds (Luke 2)",
+          "key": "rR2bJLtPBcQ",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2024-12-04T14:00:53.000Z",
+          "id": "6808071a276bf64e41ab21a9"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "No Room in the Inn (Luke 2)",
+          "key": "3cPIMHnPOzc",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2024-12-01T14:00:03.000Z",
+          "id": "6808072ac3e8e74b6deebdf7"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Last Supper Teaser (Season 5)",
+          "key": "eHRsEZjdCjI",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2024-11-25T15:00:06.000Z",
+          "id": "6806aa076e1a769e81ee6a0a"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Jesus Tells Peter to Forgive 70x7 Times (Matthew 18)",
+          "key": "q5NhJ_3xNOo",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2024-11-10T14:00:49.000Z",
+          "id": "6808076db659822812eeac08"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Jesus Raises Lazarus from the Dead (John 11)",
+          "key": "e-OXgunuz_4",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2024-10-13T13:00:45.000Z",
+          "id": "6808077d142b09cecf89b44f"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen Season 3 Bloopers",
+          "key": "ONAHqwoG9jQ",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Bloopers",
+          "official": true,
+          "published_at": "2024-10-06T13:00:25.000Z",
+          "id": "6806aa2ac3e8e74b6dee68f2"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen Adventures—coming your way in 2025",
+          "key": "bo1z0LKi2Mg",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2024-09-26T22:00:31.000Z",
+          "id": "6806b5a7c3e8e74b6dee6be8"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Dance that Killed John the Baptist (Matthew 14)",
+          "key": "kepfqB9mpKg",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2024-08-15T13:00:49.000Z",
+          "id": "680807aa276bf64e41ab21de"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "When Simon Became Peter (Matthew 10:2)",
+          "key": "QjQftj3ggms",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2024-07-25T13:00:25.000Z",
+          "id": "680807bac5c8035fb08a8266"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 4 Finale Trailer",
+          "key": "NrMNBwq9BX4",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-06-29T13:00:31.000Z",
+          "id": "6806b5cb6e1a769e81ee6cd8"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 4, Episode Seven Trailer",
+          "key": "Ppdy563SahA",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-06-22T13:00:24.000Z",
+          "id": "6806b5e1c3e8e74b6dee6c01"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 4, Episode Six Trailer",
+          "key": "HtrtlP7WPX8",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-06-19T13:00:29.000Z",
+          "id": "6806b5f303344aee708a3ddd"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 4, Episode Five Trailer",
+          "key": "h3rdKJ34ofc",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-06-15T13:00:43.000Z",
+          "id": "6806b604c3e8e74b6dee6c27"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 4, Episode Four Trailer",
+          "key": "rzW33vJGslo",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-06-12T13:00:56.000Z",
+          "id": "6806b613ac02d4407baadcde"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 4, Episode Three Trailer",
+          "key": "XeOcSAGyUHs",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-06-08T13:00:27.000Z",
+          "id": "6806b62137a722b8868a32c4"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 4, Episode Two Trailer",
+          "key": "8wQd0z4_QKA",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-06-05T13:00:14.000Z",
+          "id": "6806b62e059fbcecf6aaea81"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 4, Episode One Trailer",
+          "key": "QSHhJpG2-Xg",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-06-01T13:00:32.000Z",
+          "id": "6806b63dc3e8e74b6dee6c76"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Jesus and His Mother (The Chosen Scene)",
+          "key": "XFXD0m1-HS4",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2024-05-12T13:00:26.000Z",
+          "id": "680807d2271ecb3ae089baee"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "I AM the Resurrection and the Life (John 11:25)",
+          "key": "x9tTdR7WS7E",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2024-03-31T13:00:50.000Z",
+          "id": "680807e7b659822812eeac20"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Season 4, Episodes 7-8 Trailer",
+          "key": "3NgjDVItTVQ",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-02-29T15:00:03.000Z",
+          "id": "6806b65bc5c8035fb08a3ca5"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Season 4, Episodes 4-6 Trailer",
+          "key": "Bn_5uH5kUAU",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-02-15T14:21:58.000Z",
+          "id": "6806b6763f88854c49ee83f2"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Time Has Come (The Chosen Scene)",
+          "key": "B9JFQZDGNuM",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2024-02-14T15:03:44.000Z",
+          "id": "680807f9271ecb3ae089bb08"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Season 4, Episodes 1-3 Trailer",
+          "key": "sepQGPzT7Kw",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-02-01T14:00:28.000Z",
+          "id": "6806b687ac02d4407baadd0a"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 4 \"Deliver Us\" Trailer",
+          "key": "mkobAqU1OUk",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-01-09T02:30:28.000Z",
+          "id": "6806aa71c5c8035fb08a399c"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 4 Official Trailer",
+          "key": "wisX-CEjoxc",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2023-12-18T17:00:09.000Z",
+          "id": "6806b69dc5c8035fb08a3cca"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Christmas with The Chosen: Holy Night",
+          "key": "OzbnoMVQAzg",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2023-11-01T13:00:01.000Z",
+          "id": "6806b6ba3f88854c49ee8447"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 4 Teaser Trailer",
+          "key": "G_2eXnhrvyc",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2023-10-16T13:00:03.000Z",
+          "id": "6806b6cf3f88854c49ee845c"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen Season 2 Bloopers",
+          "key": "EqfYb8i1Qkk",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Bloopers",
+          "official": true,
+          "published_at": "2023-03-23T13:00:20.000Z",
+          "id": "6806b6fb3f88854c49ee8482"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 3 Finale Official Teaser",
+          "key": "NzVAJufqQfo",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2023-01-18T15:04:49.000Z",
+          "id": "6806b7143f88854c49ee84a1"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 3, Episode Six Official Teaser",
+          "key": "fefHOt33rpE",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2023-01-12T17:34:30.000Z",
+          "id": "6806b72fac02d4407baadd63"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 3, Episode Five Official Teaser",
+          "key": "4OZ6g4AVkqs",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2023-01-05T21:12:04.000Z",
+          "id": "6806b74037a722b8868a336a"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 3, Episode Three Official Teaser",
+          "key": "zv1oEXkCsFU",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2022-12-23T20:50:02.000Z",
+          "id": "6806b753c5c8035fb08a3d3c"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 3, Episode Two Official Teaser",
+          "key": "HiqXJjPOaTk",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2022-12-16T16:40:44.000Z",
+          "id": "6806b7683f88854c49ee84ea"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 3 Official 60-Second Trailer",
+          "key": "377bA3KAcF8",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2022-12-12T22:48:33.000Z",
+          "id": "6806b77b6e1a769e81ee6d5a"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 3 Theatrical Trailer (Episodes One & Two)",
+          "key": "nheJmQ6uYQY",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2022-10-26T13:00:29.000Z",
+          "id": "6806b7986e1a769e81ee6d6a"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Season 3 Official Trailer",
+          "key": "Y7z868kEl5s",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2022-10-17T16:00:08.000Z",
+          "id": "6806b7b3276bf64e41aae723"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: \"Trouble\" Trailer",
+          "key": "FzwUnb5l0WI",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2020-06-16T16:15:00.000Z",
+          "id": "6806a9af276bf64e41aae312"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen Season One Official Trailer (HD)",
+          "key": "X-AJdKty74M",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2019-12-09T20:55:21.000Z",
+          "id": "6806a95fe3fac2f9028a23c0"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen \"Miracles\" Official Trailer",
+          "key": "J_8JGUa64Gc",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2019-11-26T22:30:01.000Z",
+          "id": "6806b806ac02d4407baaddb5"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Official Trailer 2",
+          "key": "cZQn-LHGQSc",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2019-07-05T20:26:03.000Z",
+          "id": "6807fa1eb2b722aedf89c205"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Opening Credits with Lyrics",
+          "key": "1AfWDl1FjI8",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Opening Credits",
+          "official": true,
+          "published_at": "2019-04-22T21:56:30.000Z",
+          "id": "6807f8f3b6c63d270faaa188"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen | Official Trailer HD",
+          "key": "K1-FoFj8Jbo",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2019-04-16T15:08:57.000Z",
+          "id": "60d5936833ad8f007f7f1ea4"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Teaser",
+          "key": "Iv8RsbPFyw8",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2019-03-12T19:07:03.000Z",
+          "id": "6807f92cb659822812eea94e"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: Inside a Scene",
+          "key": "hha609i6X9U",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Behind the Scenes",
+          "official": true,
+          "published_at": "2019-03-02T21:52:40.000Z",
+          "id": "6807f940276bf64e41ab1d88"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Chosen: The Shepherd (Pilot Episode)",
+          "key": "YLUemFYq4PM",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "published_at": "2018-06-13T14:04:46.000Z",
+          "official": true,
+          "id": "5c1cf6d392514127dc4e5487"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -628,7 +2439,95 @@
     "name": "Better Call Saul",
     "vote_average": 8.698,
     "vote_count": 6025,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "International Trailer",
+          "key": "HN4oydykJFc",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2015-11-23T15:00:00.000Z",
+          "id": "5e5fa8a29b86160015ffc677"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Netflix Trailer",
+          "key": "NWbrE9HxucA",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2015-01-27T14:30:06.000Z",
+          "id": "6607ca51a894d6017c6523a6"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "UK & Ireland Teaser",
+          "key": "EujKha0HQGo",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2015-01-19T12:12:50.000Z",
+          "id": "6607ca3ba894d6017c652379"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Extended Trailer",
+          "key": "l1xIGfVFb-U",
+          "published_at": "2015-01-10T16:46:27.000Z",
+          "site": "YouTube",
+          "size": 720,
+          "type": "Trailer",
+          "official": true,
+          "id": "59492acfc3a36816e4053bed"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Song",
+          "key": "mGsC_LO3oFY",
+          "published_at": "2014-10-06T00:25:39.000Z",
+          "site": "YouTube",
+          "size": 720,
+          "type": "Featurette",
+          "official": true,
+          "id": "55301e3a9251415b7a002e3e"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Tease: Creators Vince Gilligan and Peter Gould on Jimmy McGill",
+          "key": "YpV-fRh5hcQ",
+          "published_at": "2014-08-24T21:19:47.000Z",
+          "site": "YouTube",
+          "size": 720,
+          "type": "Featurette",
+          "official": true,
+          "id": "55301e74c3a3686be2007160"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Tease: Saul Solicits New Clients",
+          "key": "lQscoVVvURk",
+          "published_at": "2014-08-11T16:06:00.000Z",
+          "site": "YouTube",
+          "size": 720,
+          "type": "Teaser",
+          "official": true,
+          "id": "55301e0ac3a368595100334b"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -649,7 +2548,35 @@
     "name": "Chernobyl",
     "vote_average": 8.693,
     "vote_count": 7313,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Chernobyl (2019) | Official Trailer | HBO",
+          "key": "s9APLXM9Ei8",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2019-03-28T16:00:35.000Z",
+          "id": "5c9d48c4c3a36854bad262d6"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Chernobyl (2019) Date Announcement | Teaser Trailer",
+          "key": "PMlwjCID3Io",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2019-03-11T17:00:27.000Z",
+          "id": "5c86b433925141745818b4a7"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -673,7 +2600,83 @@
     "name": "Rick and Morty",
     "vote_average": 8.683,
     "vote_count": 10540,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Rick and Morty x PlayStation | God of War Ragnarök",
+          "key": "p_bH42OiUo4",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2022-09-05T03:55:00.000Z",
+          "id": "64bb2a3285c0a200ad5f8080"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Pop Culture According to Rick and Morty",
+          "key": "LEgYxWi5F84",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Featurette",
+          "official": true,
+          "published_at": "2022-07-14T00:00:05.000Z",
+          "id": "62d0e13a83ee670055d09299"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Rick and Morty x Run The Jewels: Oh Mama",
+          "key": "EBYsx1QWF9A",
+          "published_at": "2018-03-16T14:00:18.000Z",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Featurette",
+          "official": true,
+          "id": "5bcca202c3a368285e00b779"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Rick and Morty x Vulture: A Trip to ‘Spongebob Universe Show’",
+          "key": "sLaXyz4SDtU",
+          "published_at": "2017-08-18T14:07:58.000Z",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Featurette",
+          "official": false,
+          "id": "5bcc9f760e0a26015b00b78a"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Rick and Morty Mini-Episode",
+          "key": "-PVNKvIDRwI",
+          "published_at": "2016-08-08T17:36:38.000Z",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Featurette",
+          "official": false,
+          "id": "5bcc9edb925141613b00a65f"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "\"Rick and Morty\" Season 1 Promos",
+          "key": "WNhH00OIPP0",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-01-28T22:42:24.000Z",
+          "id": "64bb29c158efd300ace112ab"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -697,7 +2700,35 @@
     "name": "Adventure Time: Fionna & Cake",
     "vote_average": 8.679,
     "vote_count": 277,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer",
+          "key": "94gpIscW0Mc",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2023-08-17T17:02:20.000Z",
+          "id": "64de53e2a3b5e600ff4d7f02"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Sneak Peek",
+          "key": "1qpAEB4xQlQ",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2023-07-20T18:31:19.000Z",
+          "id": "64b986f927db61011c152dc1"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -718,7 +2749,47 @@
     "name": "The Pitt",
     "vote_average": 8.675,
     "vote_count": 312,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer",
+          "key": "ufR_08V38sQ",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-12-12T16:02:23.000Z",
+          "id": "675b09b57c2d51bdbd1fad2c"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Teaser",
+          "key": "_n0cHDflMcE",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2024-11-21T16:02:31.000Z",
+          "id": "673f59e2f40282ebcb9b922e"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Welcome to The Pitt.",
+          "key": "hhODkeJCK-w",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2024-11-11T19:00:21.000Z",
+          "id": "6732e0ceebc5a26e5e498f86"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -741,7 +2812,95 @@
     "name": "Attack on Titan",
     "vote_average": 8.67,
     "vote_count": 7104,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Curious About Attack on Titan? Start Here!",
+          "key": "v5_10A9lyXQ",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Featurette",
+          "official": true,
+          "published_at": "2021-01-21T22:00:28.000Z",
+          "id": "600b2a3f4d0e8d003d70cbfd"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Trailer - English Dubbed",
+          "key": "bT9csxkth8g",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2020-11-02T09:24:44.000Z",
+          "id": "63a3035dbe6d8800bca9c13f"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Attack on Titan Season 2 Opening | Shinzou wo Sasageyo!",
+          "key": "LKP-vZvjbh8",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Opening Credits",
+          "official": true,
+          "published_at": "2017-04-14T14:00:03.000Z",
+          "id": "679f927f04cb6f41b9cb6993"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer w/ Intro from Voice of Eren",
+          "key": "HJaUvV9Hwgs",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2014-03-22T21:09:23.000Z",
+          "id": "600b2900d70594003b1d37c5"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Attack on Titan Opening 2 | Jiyuu no Tsubasa by Linked Horizon",
+          "key": "PbWFpzi8C94",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Opening Credits",
+          "official": true,
+          "published_at": "2013-07-31T17:17:50.000Z",
+          "id": "679f917af0f9dbdba6956ea2"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official English Subtitled Trailer 3",
+          "key": "luYOt2-c2TI",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2013-07-06T20:00:11.000Z",
+          "id": "600b28b73f8ede003f6428cc"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Opening 1 - Feuerroter Pfeil und Bogen [Subtitled]",
+          "key": "8OkpRK2_gVs",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Opening Credits",
+          "official": true,
+          "published_at": "2013-04-23T20:07:17.000Z",
+          "id": "600b28e423d278003f37137e"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -764,7 +2923,23 @@
     "name": "Hunter x Hunter",
     "vote_average": 8.664,
     "vote_count": 1981,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Extended Trailer",
+          "key": "d6kBeJjTGnY",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2016-09-16T21:36:05.000Z",
+          "id": "624cf3c1d9f4a600683efd36"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -790,7 +2965,35 @@
     "name": "The Owl House",
     "vote_average": 8.66,
     "vote_count": 1731,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer",
+          "key": "1W1FFiT51lg",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2019-11-21T17:02:48.000Z",
+          "id": "5dd6d4a27f1d83001863235f"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Teaser",
+          "key": "nPdz1F7U4eE",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2019-06-11T15:30:06.000Z",
+          "id": "5d7f96b0c54304078696610a"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -812,7 +3015,23 @@
     "name": "Anne with an E",
     "vote_average": 8.655,
     "vote_count": 4839,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "loose adaptation",
+          "key": "S5qJXYNNINo",
+          "published_at": "2017-04-04T16:00:02.000Z",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "id": "5b1a9316c3a36848fb012c38"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -834,7 +3053,35 @@
     "name": "The Sopranos",
     "vote_average": 8.6,
     "vote_count": 3199,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Sopranos - Official Trailer | HBO Series",
+          "key": "Q8cBFvpqmH0",
+          "site": "YouTube",
+          "size": 720,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2020-11-09T06:49:33.000Z",
+          "id": "659428cb6aa8e06277eb5cd6"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "The Sopranos Dictionary | HBO",
+          "key": "hCDv1pHWPe0",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Featurette",
+          "official": true,
+          "published_at": "2020-05-12T16:00:18.000Z",
+          "id": "5eca2759140bad001c1a075d"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -857,7 +3104,35 @@
     "name": "Kamisama Kiss",
     "vote_average": 8.6,
     "vote_count": 986,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Kamisama Kiss - Contract",
+          "key": "FiT74QILpkg",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2018-02-21T06:00:01.000Z",
+          "id": "66e39d5bc81b24b3fe23d819"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Kamisama Kiss (2012) -PV",
+          "key": "HzCba_fi-to",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2017-01-12T05:37:12.000Z",
+          "id": "678c2b4942f27c754c6500e0"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -879,7 +3154,23 @@
     "name": "Slam Dunk",
     "vote_average": 8.644,
     "vote_count": 939,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Slam dunk opening full",
+          "key": "HI9L-ll_IGg",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2015-11-11T12:38:35.000Z",
+          "id": "6736856eba29a051b3cc7dd0"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -901,7 +3192,131 @@
     "name": "Pluribus",
     "vote_average": 8.031,
     "vote_count": 208,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "What On Earth Is Pluribus",
+          "key": "Yc-kwWTxrB0",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Featurette",
+          "official": true,
+          "published_at": "2025-11-06T19:59:48.000Z",
+          "id": "690eb7e85a6e68d567ce7e9a"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer",
+          "key": "a6lzvWby9UE",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-10-22T13:59:51.000Z",
+          "id": "68f8f7d64274252041dbc555"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Teaser",
+          "key": "gpnizY19kEM",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-10-09T15:59:59.000Z",
+          "id": "68e7fb3bd6ad72c51330c089"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Preparing for Takeoff",
+          "key": "_AgJZCNWxj0",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-10-08T13:59:53.000Z",
+          "id": "68e67763ff67e168ae8a01e9"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "How's the Flight, Carol?",
+          "key": "MP9C84oYZ9k",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-10-06T12:59:50.000Z",
+          "id": "68e3c2e495e6715b2ff81dc8"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Taking Out the Trash",
+          "key": "zG4PRiyjfu0",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-09-30T12:59:53.000Z",
+          "id": "68dbeed51e26b5fddce1c944"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Welcome, Carol",
+          "key": "67vfwsK2boA",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-09-23T12:59:56.000Z",
+          "id": "68d2d143b29b8a6d72ced06c"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Sorry About the Blood",
+          "key": "Ccv5AxWf-RY",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-08-19T16:59:49.000Z",
+          "id": "68a4d9e6284a17db62834670"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "(202) 808-3981",
+          "key": "DQFs6eyB014",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-07-28T18:59:58.000Z",
+          "id": "6887cf168beea02e6e8a770c"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Date Announcement",
+          "key": "cR41iZx07O8",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-07-25T18:59:23.000Z",
+          "id": "6883d55c8beea02e6e8a6261"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -922,7 +3337,10 @@
     "name": "Esref Ruya",
     "vote_average": 7.2,
     "vote_count": 21,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": []
+    }
   },
   {
     "adult": false,
@@ -946,7 +3364,47 @@
     "name": "One-Punch Man",
     "vote_average": 8.396,
     "vote_count": 3927,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Opening | THE HERO!! Set Fire to the Furious Fist - JAM Project [CC]",
+          "key": "atxYe-nOa9w",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Opening Credits",
+          "official": true,
+          "published_at": "2015-10-13T02:28:00.000Z",
+          "id": "5fc36af02bcf67003dc0f8f0"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer",
+          "key": "2JAElThbKrI",
+          "published_at": "2015-10-07T02:16:32.000Z",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "id": "5bce4de892514105770067b4"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer",
+          "key": "Poo5lqoWSGw",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2015-09-22T17:57:47.000Z",
+          "id": "66a96d098b1f0cfd5587ea01"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -967,7 +3425,23 @@
     "name": "Heated Rivalry",
     "vote_average": 8.1,
     "vote_count": 34,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer",
+          "key": "ADi1iextoUM",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-10-09T16:00:08.000Z",
+          "id": "68e85ae51010af52654a992d"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -990,7 +3464,10 @@
     "name": "Dinastía Casillas",
     "vote_average": 8.332,
     "vote_count": 202,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": []
+    }
   },
   {
     "adult": false,
@@ -1012,7 +3489,10 @@
     "name": "The Daily Show",
     "vote_average": 6.401,
     "vote_count": 610,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": []
+    }
   },
   {
     "adult": false,
@@ -1034,7 +3514,23 @@
     "name": "The Tonight Show Starring Jimmy Fallon",
     "vote_average": 5.878,
     "vote_count": 361,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Trailer (ABC2)",
+          "key": "q-0YafsWK_M",
+          "site": "YouTube",
+          "size": 480,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2014-03-27T05:26:44.000Z",
+          "id": "6679fde9d255107549572acd"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -1058,7 +3554,35 @@
     "name": "My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater Dungeon, I'm Out for Revenge!",
     "vote_average": 8.569,
     "vote_count": 29,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Dub Trailer",
+          "key": "jhHKXEaXO6A",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-11-08T15:01:22.000Z",
+          "id": "6910b29e018a92d91ace8937"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Teaser [Subtitled]",
+          "key": "_hkHcdNreJA",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-08-19T19:06:36.000Z",
+          "id": "68a598fbf0b30ed2c525ef9e"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -1079,7 +3603,35 @@
     "name": "Landman",
     "vote_average": 8.031,
     "vote_count": 318,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer 2",
+          "key": "wXzhEhCOlnM",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-10-28T14:00:01.000Z",
+          "id": "671fde512685cb6563c161d3"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer",
+          "key": "7zxh49-bsIk",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-09-05T13:45:34.000Z",
+          "id": "66d9b78d2fb7c5ad8701961e"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -1103,7 +3655,107 @@
     "name": "Percy Jackson and the Olympians",
     "vote_average": 7.336,
     "vote_count": 609,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer",
+          "key": "yT1ng2tiwLA",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-11-06T16:04:54.000Z",
+          "id": "690cce74102844a82f0714d2"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Book to Screen Featurette",
+          "key": "csg7xc3pw0I",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Behind the Scenes",
+          "official": true,
+          "published_at": "2023-12-19T21:30:12.000Z",
+          "id": "6583a1e3f1759c403210dad4"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Behind the Story Featurette",
+          "key": "GURN_Z_sDLs",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Featurette",
+          "official": true,
+          "published_at": "2023-12-19T16:00:13.000Z",
+          "id": "65820ba234e1520860086f56"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Electrifying World Premiere",
+          "key": "bYpMoHJsP-g",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Featurette",
+          "official": true,
+          "published_at": "2023-12-15T23:30:11.000Z",
+          "id": "6583a229e295b43cbb686ff4"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Finding Percy Jackson Featurette",
+          "key": "X8bke1sT6Lo",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Behind the Scenes",
+          "official": true,
+          "published_at": "2023-12-15T21:00:13.000Z",
+          "id": "6583a223180dea53498c255a"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Hulu Trailer",
+          "key": "YbBAb0FxDbU",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2023-12-14T00:38:36.000Z",
+          "id": "657bf573ec8a4300c33b9c21"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Teaser",
+          "key": "bzHMAXqFFvc",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2023-09-19T16:00:09.000Z",
+          "id": "6509e24e81c7be013af102ee"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Teaser",
+          "key": "Y3gF6Duh_z0",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2022-09-10T23:42:44.000Z",
+          "id": "631d41a5fa4046007ef9b5a3"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -1127,7 +3779,71 @@
     "name": "Gachiakuta",
     "vote_average": 8.654,
     "vote_count": 153,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Dub Trailer",
+          "key": "VtHD9MlW6mA",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-06-23T15:00:52.000Z",
+          "id": "685a124729f48d9fa821c865"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "BEHIND GACHIAKUTA - Creators Interview & Behind-the-scenes [Subtitled]",
+          "key": "mQQF81ubINM",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Behind the Scenes",
+          "official": true,
+          "published_at": "2025-06-06T01:21:00.000Z",
+          "id": "68426dfd9d1693de237f58b7"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Main PV [Subtitled]",
+          "key": "WCkBA4BfhHg",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-06-06T01:00:37.000Z",
+          "id": "68426e11f3375a242e5399ca"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Teaser PV [Subtitled]",
+          "key": "-DWElt4GtAc",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-03-14T01:00:00.000Z",
+          "id": "67d3c103a2b18dbedd64e87f"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Teaser PV",
+          "key": "4xVNTxPX8mQ",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2024-07-04T22:15:00.000Z",
+          "id": "678fa564dc9603f94d5b4979"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -1149,7 +3865,35 @@
     "name": "Robin Hood",
     "vote_average": 7.734,
     "vote_count": 64,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer",
+          "key": "SDfWMSNQEJc",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-09-22T17:03:53.000Z",
+          "id": "68d1a9944e7f97d8bdd41f13"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Teaser",
+          "key": "gVJDfraQSqQ",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Teaser",
+          "official": true,
+          "published_at": "2025-08-28T15:05:13.000Z",
+          "id": "68b0741929cc9a2270b379e5"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -1170,7 +3914,71 @@
     "name": "ClaireBell",
     "vote_average": 8.1,
     "vote_count": 12,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Trailer “CLAIREBELL”",
+          "key": "z90_qshJFU0",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Trailer",
+          "official": false,
+          "published_at": "2025-10-17T10:58:00.000Z",
+          "id": "68f2285634a686bdc1b2311a"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Starlight - Violette Wautier | OST. From \"ClaireBell\" | (Lyrics)",
+          "key": "0x8FpLQmi8c",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Clip",
+          "official": false,
+          "published_at": "2025-10-10T05:08:00.000Z",
+          "id": "68ea9644ce257c173e9fd884"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "OFFICIAL TEASER | “CLAIREBELL”",
+          "key": "mZM8xhWIiGk",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Teaser",
+          "official": false,
+          "published_at": "2025-10-09T11:01:16.000Z",
+          "id": "68e869dcc0c90aecc273de1a"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "OFFICIAL PILOT | CLAIREBELL THE SERIES | ORIGINAL SERIES MINE MEDIA PRODUCTION",
+          "key": "ffYNruMDcps",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Teaser",
+          "official": false,
+          "published_at": "2025-02-16T11:41:46.000Z",
+          "id": "67b1ee09be1135c1d86dbd67"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "OFFICIAL TEASER |  CLAIREBELL THE SERIES | ORIGINAL SERIES MINE MEDIA PRODUCTION",
+          "key": "F4FdHMqyKD0",
+          "site": "YouTube",
+          "size": 2160,
+          "type": "Teaser",
+          "official": false,
+          "published_at": "2025-01-18T10:00:06.000Z",
+          "id": "678d4d754b96e0ea5f42f3e1"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -1192,7 +4000,47 @@
     "name": "The War Between the Land and the Sea",
     "vote_average": 6.875,
     "vote_count": 16,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "SNEAK PEEK - Behind The Scenes",
+          "key": "SmWa6xPZdoo",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Behind the Scenes",
+          "official": true,
+          "published_at": "2025-11-29T11:01:04.000Z",
+          "id": "692b1fcfd17cb10d7081fc30"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "NEW TRAILER",
+          "key": "TIuILeKrH4w",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-11-27T19:30:04.000Z",
+          "id": "692b203a9be827a9934c4297"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "COMING SOON",
+          "key": "XoM7pfpE3u0",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-05-31T19:01:00.000Z",
+          "id": "683ba6b21c6baae1417f3aca"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -1215,7 +4063,59 @@
     "name": "Record of Ragnarok",
     "vote_average": 8.424,
     "vote_count": 1759,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer 2 [Subtitled]",
+          "key": "XImWUxxUiCo",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2021-05-25T03:00:10.000Z",
+          "id": "60ae478a7776f0007824f030"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer [Subtitled/English Text]",
+          "key": "VWOQzCLzYOA",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2021-03-27T01:30:02.000Z",
+          "id": "605e8cbc1065d30053826433"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Official Trailer [Subtitled]",
+          "key": "_9HxsIYORyE",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2021-03-27T01:30:00.000Z",
+          "id": "62edefd5be4b36007d8d646e"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Teaser Trailer [Subtitled]",
+          "key": "MGiAcQL-yKw",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2020-12-19T01:00:13.000Z",
+          "id": "5fdd6b9a12970c003f26e370"
+        }
+      ]
+    }
   },
   {
     "adult": false,
@@ -1237,6 +4137,58 @@
     "name": "The Jewel of Section E",
     "vote_average": 8.3,
     "vote_count": 77,
-    "media_type": "tv"
+    "media_type": "tv",
+    "videos": {
+      "results": [
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "SELF-DEFENSE 101 | EPISODE 2: TEASER | Ang Mutya ng Section E (The Dark Side) | Studio Viva",
+          "key": "5Yq5dn1EUfs",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2025-12-10T00:58:50.000Z",
+          "id": "6939ae4f63f806e65dae9e01"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "OFFICIAL TRAILER | ANG MUTYA NG SECTION E: BOOK 2 (The Dark Side) | Studio Viva",
+          "key": "jXlH7fnCHxk",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2025-11-18T05:21:49.000Z",
+          "id": "691c2a60897622578a446fa6"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "SCENE DROP | Ang Mutya ng Section E Book 2: The Dark Side | Studio Viva",
+          "key": "QEl-PZ8L0h8",
+          "site": "YouTube",
+          "size": 1080,
+          "type": "Clip",
+          "official": true,
+          "published_at": "2025-11-14T09:13:53.000Z",
+          "id": "691c2a95f22a5d998981c578"
+        },
+        {
+          "iso_639_1": "en",
+          "iso_3166_1": "US",
+          "name": "Ang Mutya Ng Section E (Official Trailer) | Series Premiere this January 3 on Viva One | Studio Viva",
+          "key": "_y6AAA_xdpQ",
+          "site": "YouTube",
+          "size": 720,
+          "type": "Trailer",
+          "official": true,
+          "published_at": "2024-12-19T10:29:18.000Z",
+          "id": "67b357715aca5a71d29fdb62"
+        }
+      ]
+    }
   }
 ]

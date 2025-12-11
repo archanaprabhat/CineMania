@@ -10,9 +10,9 @@ export default function Footer() {
             rel="noreferrer"
             className="font-medium underline underline-offset-4"
           >
-            Antigravity
+            Archana
           </a>
-          . The source code is available on{" "}
+          wi
           <a
             href="#"
             target="_blank"
