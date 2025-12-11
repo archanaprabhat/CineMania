@@ -1,0 +1,59 @@
+"use client"
+
+import Image from "next/image"
+import Link from "next/link"
+import { motion } from "framer-motion"
+import { Star } from "lucide-react"
+import { Card, CardContent } from "@/components/ui/card"
+import { Movie } from "@/types/movie"
+
+interface MovieCardProps {
+  movie: Movie
+}
+
+export default function MovieCard({ movie }: MovieCardProps) {
+  const posterUrl = movie.poster_path
+    ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
+    : "/placeholder-poster.png" // Fallback image (we might need to create this or use a color)
+
+  return (
+    <Link href={`/movies/${movie.id}`}>
+      <motion.div
+        whileHover={{ scale: 1.05 }}
+        transition={{ duration: 0.2 }}
+      >
+        <Card className="overflow-hidden border-0 bg-transparent shadow-none group">
+          <CardContent className="p-0">
+            <div className="relative aspect-[2/3] w-full overflow-hidden rounded-md bg-muted">
+              {movie.poster_path ? (
+                <Image
+                  src={posterUrl}
+                  alt={movie.title}
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-110"
+                  sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
+                />
+              ) : (
+                <div className="flex h-full items-center justify-center bg-muted text-muted-foreground">
+                  No Image
+                </div>
+              )}
+            </div>
+            <div className="pt-2">
+              <h3 className="line-clamp-1 font-medium text-sm group-hover:text-primary transition-colors">
+                {movie.title}
+              </h3>
+              <div className="flex items-center justify-between text-xs text-muted-foreground mt-1">
+                <span>{movie.release_date ? new Date(movie.release_date).getFullYear() : 'N/A'}</span>
+                <div className="flex items-center gap-1">
+                  <Star className="h-3 w-3 fill-yellow-500 text-yellow-500" />
+                  <span>{movie.vote_average.toFixed(1)}</span>
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      </motion.div>
+    </Link>
+  )
+}
