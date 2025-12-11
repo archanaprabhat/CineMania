@@ -14,20 +14,25 @@ interface MovieListingProps {
 export default function MovieListing({ initialMovies }: MovieListingProps) {
   const searchParams = useSearchParams()
   const initialGenre = searchParams.get("genre") || "all"
+  const initialQuery = searchParams.get("q") || ""
   
   const [movies] = useState<Movie[]>(initialMovies)
   const [filteredMovies, setFilteredMovies] = useState<Movie[]>(initialMovies)
-  const [searchQuery, setSearchQuery] = useState("")
+  const [searchQuery, setSearchQuery] = useState(initialQuery)
   const [selectedGenre, setSelectedGenre] = useState(initialGenre)
   const [sortOption, setSortOption] = useState("popular")
+  const [selectedYear, setSelectedYear] = useState("all")
+  const [minRating, setMinRating] = useState("0")
 
   useEffect(() => {
     let result = [...movies]
 
-    // Search
+    // Search (Title or Actor)
     if (searchQuery) {
+      const query = searchQuery.toLowerCase()
       result = result.filter((movie) =>
-        movie.title.toLowerCase().includes(searchQuery.toLowerCase())
+        movie.title.toLowerCase().includes(query) ||
+        movie.credits?.cast?.some(actor => actor.name.toLowerCase().includes(query))
       )
     }
 
@@ -38,6 +43,20 @@ export default function MovieListing({ initialMovies }: MovieListingProps) {
       )
     }
 
+    // Year Filter
+    if (selectedYear && selectedYear !== "all") {
+      result = result.filter((movie) => 
+        new Date(movie.release_date).getFullYear().toString() === selectedYear
+      )
+    }
+
+    // Min Rating Filter
+    if (minRating && minRating !== "0") {
+      result = result.filter((movie) => 
+        movie.vote_average >= parseInt(minRating)
+      )
+    }
+
     // Sort
     if (sortOption === "popular") {
       result.sort((a, b) => b.popularity - a.popularity)
@@ -45,10 +64,12 @@ export default function MovieListing({ initialMovies }: MovieListingProps) {
       result.sort((a, b) => b.vote_average - a.vote_average)
     } else if (sortOption === "newest") {
       result.sort((a, b) => new Date(b.release_date).getTime() - new Date(a.release_date).getTime())
+    } else if (sortOption === "az") {
+      result.sort((a, b) => a.title.localeCompare(b.title))
     }
 
     setFilteredMovies(result)
-  }, [movies, searchQuery, selectedGenre, sortOption])
+  }, [movies, searchQuery, selectedGenre, sortOption, selectedYear, minRating])
 
   const container = {
     hidden: { opacity: 0 },
@@ -73,6 +94,8 @@ export default function MovieListing({ initialMovies }: MovieListingProps) {
           onSearch={setSearchQuery}
           onFilter={setSelectedGenre}
           onSort={setSortOption}
+          onYearChange={setSelectedYear}
+          onRatingChange={setMinRating}
         />
       </div>
 

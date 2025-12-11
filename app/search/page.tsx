@@ -18,11 +18,17 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   ])
 
   const filteredMovies = query 
-    ? movies.filter((movie: any) => movie.title.toLowerCase().includes(query))
+    ? movies.filter((movie: any) => 
+        movie.title.toLowerCase().includes(query) ||
+        movie.credits?.cast?.some((actor: any) => actor.name.toLowerCase().includes(query))
+      )
     : []
 
   const filteredShows = query
-    ? shows.filter((show: any) => show.name.toLowerCase().includes(query))
+    ? shows.filter((show: any) => 
+        show.name.toLowerCase().includes(query) ||
+        show.credits?.cast?.some((actor: any) => actor.name.toLowerCase().includes(query))
+      )
     : []
 
   const filteredActors = query

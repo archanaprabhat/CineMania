@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import { useSearchParams } from "next/navigation"
 import ShowCard from "@/components/ShowCard"
 import SearchAndFilterBar from "@/components/SearchAndFilterBar"
 import { Show } from "@/types/movie"
@@ -11,19 +12,27 @@ interface ShowListingProps {
 }
 
 export default function ShowListing({ initialShows }: ShowListingProps) {
+  const searchParams = useSearchParams()
+  const initialGenre = searchParams.get("genre") || "all"
+  const initialQuery = searchParams.get("q") || ""
+
   const [shows] = useState<Show[]>(initialShows)
   const [filteredShows, setFilteredShows] = useState<Show[]>(initialShows)
-  const [searchQuery, setSearchQuery] = useState("")
-  const [selectedGenre, setSelectedGenre] = useState("all")
+  const [searchQuery, setSearchQuery] = useState(initialQuery)
+  const [selectedGenre, setSelectedGenre] = useState(initialGenre)
   const [sortOption, setSortOption] = useState("popular")
+  const [selectedYear, setSelectedYear] = useState("all")
+  const [minRating, setMinRating] = useState("0")
 
   useEffect(() => {
     let result = [...shows]
 
-    // Search
+    // Search (Name or Actor)
     if (searchQuery) {
+      const query = searchQuery.toLowerCase()
       result = result.filter((show) =>
-        show.name.toLowerCase().includes(searchQuery.toLowerCase())
+        show.name.toLowerCase().includes(query) ||
+        show.credits?.cast?.some(actor => actor.name.toLowerCase().includes(query))
       )
     }
 
@@ -34,6 +43,20 @@ export default function ShowListing({ initialShows }: ShowListingProps) {
       )
     }
 
+    // Year Filter
+    if (selectedYear && selectedYear !== "all") {
+      result = result.filter((show) => 
+        new Date(show.first_air_date).getFullYear().toString() === selectedYear
+      )
+    }
+
+    // Min Rating Filter
+    if (minRating && minRating !== "0") {
+      result = result.filter((show) => 
+        show.vote_average >= parseInt(minRating)
+      )
+    }
+
     // Sort
     if (sortOption === "popular") {
       result.sort((a, b) => b.popularity - a.popularity)
@@ -41,10 +64,12 @@ export default function ShowListing({ initialShows }: ShowListingProps) {
       result.sort((a, b) => b.vote_average - a.vote_average)
     } else if (sortOption === "newest") {
       result.sort((a, b) => new Date(b.first_air_date).getTime() - new Date(a.first_air_date).getTime())
+    } else if (sortOption === "az") {
+      result.sort((a, b) => a.name.localeCompare(b.name))
     }
 
     setFilteredShows(result)
-  }, [shows, searchQuery, selectedGenre, sortOption])
+  }, [shows, searchQuery, selectedGenre, sortOption, selectedYear, minRating])
 
   const container = {
     hidden: { opacity: 0 },
@@ -69,6 +94,8 @@ export default function ShowListing({ initialShows }: ShowListingProps) {
           onSearch={setSearchQuery}
           onFilter={setSelectedGenre}
           onSort={setSortOption}
+          onYearChange={setSelectedYear}
+          onRatingChange={setMinRating}
         />
       </div>
 

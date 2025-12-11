@@ -1058,6 +1058,19 @@
           "id": "679bcc5a900525249afbe417"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 1904884,
+          "name": "Sara Khorami",
+          "original_name": "Sara Khorami",
+          "character": "Marion Auryn Rhadani",
+          "profile_path": "/jh49k9oVAVGdApgSCiRyJmrAgoG.jpg",
+          "order": 3
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -1202,6 +1215,19 @@
           "id": "67edd184cf06190cbae17add"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 2283930,
+          "name": "Piper Rubio",
+          "original_name": "Piper Rubio",
+          "character": "Abby",
+          "profile_path": "/5Bt8p5uRlfLjOn64k1gTiSjmL8q.jpg",
+          "order": 1
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -2035,6 +2061,19 @@
           "id": "680927a3f913e66a3aee12ef"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 18050,
+          "name": "Elle Fanning",
+          "original_name": "Elle Fanning",
+          "character": "Thia / Tessa",
+          "profile_path": "/e8CUyxQSE99y5IOfzSLtHC0B0Ch.jpg",
+          "order": 0
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -2422,6 +2461,19 @@
           "id": "68a59f3032cda8f0affd261c"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 18897,
+          "name": "Jackie Chan",
+          "original_name": "成龍",
+          "character": "Huang Dezhong",
+          "profile_path": "/nraZoTzwJQPHspAVsKfgl3RXKKa.jpg",
+          "order": 0
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -6161,6 +6213,19 @@
           "id": "65af928c6af8f800cd7aec66"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 31,
+          "name": "Tom Hanks",
+          "original_name": "Tom Hanks",
+          "character": "Paul Edgecomb",
+          "profile_path": "/oFvZoKI6lvU03n4YoNGAll9rkas.jpg",
+          "order": 0
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -8326,6 +8391,19 @@
           "id": "6849c95e4e83f7c09bde7d92"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 31,
+          "name": "Tom Hanks",
+          "original_name": "Tom Hanks",
+          "character": "Forrest Gump",
+          "profile_path": "/oFvZoKI6lvU03n4YoNGAll9rkas.jpg",
+          "order": 0
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -9744,6 +9822,19 @@
           "id": "646429c476eecf00e31f9293"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 2283930,
+          "name": "Piper Rubio",
+          "original_name": "Piper Rubio",
+          "character": "Abby",
+          "profile_path": "/5Bt8p5uRlfLjOn64k1gTiSjmL8q.jpg",
+          "order": 1
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -12051,6 +12142,19 @@
           "id": "6843b52051161372533fbd81"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 18050,
+          "name": "Elle Fanning",
+          "original_name": "Elle Fanning",
+          "character": "Rachel Kemp",
+          "profile_path": "/e8CUyxQSE99y5IOfzSLtHC0B0Ch.jpg",
+          "order": 3
+        }
+      ],
+      "crew": []
     }
   },
   {

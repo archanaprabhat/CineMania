@@ -55,6 +55,11 @@ export interface Movie {
   };
   video?: boolean;
   media_type?: 'movie';
+  tagline?: string;
+  runtime?: number;
+  status?: string;
+  budget?: number;
+  revenue?: number;
 }
 
 export interface Show {
@@ -77,6 +82,12 @@ export interface Show {
     results: Video[];
   };
   media_type?: 'tv';
+  tagline?: string;
+  status?: string;
+  type?: string;
+  number_of_seasons?: number;
+  number_of_episodes?: number;
+  episode_run_time?: number[];
 }
 
 export interface ApiResponse<T> {

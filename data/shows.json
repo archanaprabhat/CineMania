@@ -132,6 +132,39 @@
           "id": "62d9379b4a52f8004e153316"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 3128782,
+          "name": "Nell Fisher",
+          "original_name": "Nell Fisher",
+          "character": "Holly Wheeler",
+          "profile_path": "/sBD7AFNCUuaqD443TBBFiAVHAHI.jpg"
+        },
+        {
+          "id": 1590797,
+          "name": "Sadie Sink",
+          "original_name": "Sadie Sink",
+          "character": "Max Mayfield",
+          "profile_path": "/vo5x9GRs2vT47LNb1HZvKUEsk8C.jpg"
+        },
+        {
+          "id": 1356210,
+          "name": "Millie Bobby Brown",
+          "original_name": "Millie Bobby Brown",
+          "character": "Eleven",
+          "profile_path": "/yr61C2oLZiUlHmySso2Wc5MTv20.jpg"
+        },
+        {
+          "id": 2713,
+          "name": "Linda Hamilton",
+          "original_name": "Linda Hamilton",
+          "character": "Dr. Kay",
+          "profile_path": "/7FNn9Z5xkRS9EFbGL2tpmpph9xV.jpg"
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -278,6 +311,32 @@
           "id": "66b18fa7f24ed966082feb7c"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 4718547,
+          "name": "Arian S. Cartaya",
+          "original_name": "Arian S. Cartaya",
+          "character": "Ricardo 'Rich' Santos",
+          "profile_path": "/9jHTcwpYgEXb1MXxPEDD0csri9J.jpg"
+        },
+        {
+          "id": 2426851,
+          "name": "Clara Stack",
+          "original_name": "Clara Stack",
+          "character": "Lilly Bainbridge",
+          "profile_path": "/yMK3IADqV2oReJMKdkrcEIBxdtu.jpg"
+        },
+        {
+          "id": 3467949,
+          "name": "Maya McNair",
+          "original_name": "Maya McNair",
+          "character": "Patricia 'Patty' Stanton",
+          "profile_path": "/sGjeXXuC2ubZr0a7iKbHNplHATV.jpg"
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -478,6 +537,18 @@
           "id": "613d35b6af9590009011b8a0"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 18050,
+          "name": "Elle Fanning",
+          "original_name": "Elle Fanning",
+          "character": "Eden",
+          "profile_path": "/e8CUyxQSE99y5IOfzSLtHC0B0Ch.jpg"
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -527,6 +598,25 @@
           "id": "5f9b26626332f7003783d4b0"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 1356210,
+          "name": "Millie Bobby Brown",
+          "original_name": "Millie Bobby Brown",
+          "character": "Ruby",
+          "profile_path": "/yr61C2oLZiUlHmySso2Wc5MTv20.jpg"
+        },
+        {
+          "id": 115440,
+          "name": "Sydney Sweeney",
+          "original_name": "Sydney Sweeney",
+          "character": "Erin Weaver",
+          "profile_path": "/qYiaSl0Eb7G3VaxOg8PxExCFwon.jpg"
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -605,6 +695,18 @@
           "id": "6729ccc006dc885963240003"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 1356210,
+          "name": "Millie Bobby Brown",
+          "original_name": "Millie Bobby Brown",
+          "character": "Rachel Barnes",
+          "profile_path": "/yr61C2oLZiUlHmySso2Wc5MTv20.jpg"
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -829,6 +931,25 @@
           "id": "5336dbb79251417db4000ed8"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 5081,
+          "name": "Emily Blunt",
+          "original_name": "Emily Blunt",
+          "character": "Juliet Hobbes",
+          "profile_path": "/5nCSG5TL1bP1geD8aaBfaLnLLCD.jpg"
+        },
+        {
+          "id": 31,
+          "name": "Tom Hanks",
+          "original_name": "Tom Hanks",
+          "character": "Tom Hanks (voice)",
+          "profile_path": "/oFvZoKI6lvU03n4YoNGAll9rkas.jpg"
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -1251,6 +1372,18 @@
           "id": "67420b331bcb2c093805aca0"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 18050,
+          "name": "Elle Fanning",
+          "original_name": "Elle Fanning",
+          "character": "Stella Dalton",
+          "profile_path": "/e8CUyxQSE99y5IOfzSLtHC0B0Ch.jpg"
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -1341,6 +1474,25 @@
           "id": "5cc5d91f9251415cd2f96706"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 18050,
+          "name": "Elle Fanning",
+          "original_name": "Elle Fanning",
+          "character": "Tracy Belle",
+          "profile_path": "/e8CUyxQSE99y5IOfzSLtHC0B0Ch.jpg"
+        },
+        {
+          "id": 115440,
+          "name": "Sydney Sweeney",
+          "original_name": "Sydney Sweeney",
+          "character": "Dani Forester",
+          "profile_path": "/qYiaSl0Eb7G3VaxOg8PxExCFwon.jpg"
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -3492,6 +3644,25 @@
     "media_type": "tv",
     "videos": {
       "results": []
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 1245,
+          "name": "Scarlett Johansson",
+          "original_name": "Scarlett Johansson",
+          "character": "Self",
+          "profile_path": "/6bBCPmc55gzP7TR9Th4WbykrYd0.jpg"
+        },
+        {
+          "id": 31,
+          "name": "Tom Hanks",
+          "original_name": "Tom Hanks",
+          "character": "Self",
+          "profile_path": "/oFvZoKI6lvU03n4YoNGAll9rkas.jpg"
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -3530,6 +3701,53 @@
           "id": "6679fde9d255107549572acd"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 1245,
+          "name": "Scarlett Johansson",
+          "original_name": "Scarlett Johansson",
+          "character": "Self",
+          "profile_path": "/6bBCPmc55gzP7TR9Th4WbykrYd0.jpg"
+        },
+        {
+          "id": 18050,
+          "name": "Elle Fanning",
+          "original_name": "Elle Fanning",
+          "character": "Self",
+          "profile_path": "/e8CUyxQSE99y5IOfzSLtHC0B0Ch.jpg"
+        },
+        {
+          "id": 1590797,
+          "name": "Sadie Sink",
+          "original_name": "Sadie Sink",
+          "character": "Self",
+          "profile_path": "/vo5x9GRs2vT47LNb1HZvKUEsk8C.jpg"
+        },
+        {
+          "id": 1356210,
+          "name": "Millie Bobby Brown",
+          "original_name": "Millie Bobby Brown",
+          "character": "Self - Co-Host",
+          "profile_path": "/yr61C2oLZiUlHmySso2Wc5MTv20.jpg"
+        },
+        {
+          "id": 224513,
+          "name": "Ana de Armas",
+          "original_name": "Ana de Armas",
+          "character": "Self",
+          "profile_path": "/5Qne374OM0ewMM7uSN9eq9jNrWq.jpg"
+        },
+        {
+          "id": 115440,
+          "name": "Sydney Sweeney",
+          "original_name": "Sydney Sweeney",
+          "character": "Self",
+          "profile_path": "/qYiaSl0Eb7G3VaxOg8PxExCFwon.jpg"
+        }
+      ],
+      "crew": []
     }
   },
   {
@@ -3631,6 +3849,18 @@
           "id": "66d9b78d2fb7c5ad8701961e"
         }
       ]
+    },
+    "credits": {
+      "cast": [
+        {
+          "id": 2019485,
+          "name": "Kayla Wallace",
+          "original_name": "Kayla Wallace",
+          "character": "Rebecca Falcone",
+          "profile_path": "/yeXPErkuJr3gLNeYOuATt27Z8Kr.jpg"
+        }
+      ],
+      "crew": []
     }
   },
   {

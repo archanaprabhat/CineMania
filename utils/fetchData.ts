@@ -1,7 +1,6 @@
 import fs from "fs";
 import path from "path";
 
-// Simple in-memory cache
 let moviesCache: any = null;
 let showsCache: any = null;
 let actorsCache: any = null;
