@@ -11,14 +11,6 @@ A modern, responsive web application built with Next.js 14 for browsing movies a
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Local Database**: [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) (via raw API)
 
-## Key Features
-
-- **Movies & Shows**: Browsing interface for trending and popular content.
-- **Detailed Views**: comprehensive detail pages with cast, crew, and related content.
-- **Global Search**: Unified search across movies, TV shows, and actors.
-- **Watchlist**: Client-side persistent watchlist using IndexedDB, synchronized with React Context.
-- **Responsive Design**: Mobile-first layout with glassmorphism UI elements (`GlassContainer`, `GlassBadge`).
-
 ## Architecture & Data
 
 ### Data Source
@@ -54,4 +46,4 @@ The application uses a **simulated backend** approach:
    ```
 
 3. **Open the app**:
-   Navigate to [http://localhost:3000](http://localhost:3000).
+   Navigate to [https://cinmatic.vercel.app/](https://cinmatic.vercel.app/).
