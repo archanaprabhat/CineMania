@@ -37,11 +37,14 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
 
   const hasResults = filteredMovies.length > 0 || filteredShows.length > 0 || filteredActors.length > 0
 
+  const queryRaw = searchParams.q || ""
+  const displayQuery = decodeURIComponent(queryRaw).replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/&#039;/g, "'")
+
   return (
     <main className="min-h-screen bg-background pt-24 pb-12 px-4 md:px-8">
       <div className="container mx-auto space-y-12">
         <h1 className="text-3xl font-bold text-foreground">
-          {query ? `Search Results for &quot;${searchParams.q}&quot;` : "Search"}
+          {queryRaw ? `Search Results for "${displayQuery}"` : "Search"}
         </h1>
 
         {!query && (
@@ -50,7 +53,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
 
         {query && !hasResults && (
           <div className="text-center py-20">
-            <p className="text-xl text-muted-foreground">No results found for &quot;${searchParams.q}&quot;</p>
+            <p className="text-xl text-muted-foreground">No results found for "{searchParams.q}"</p>
           </div>
         )}
 

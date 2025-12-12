@@ -84,10 +84,7 @@ export default function Hero({ movie }: HeroProps) {
                   Explore
                 </Button>
               </Link>
-              <Button size="lg" variant="secondary" className="bg-gray-500/50 text-white hover:bg-gray-500/40 gap-2 text-lg px-8 h-14 backdrop-blur-sm">
-                <Plus className="h-6 w-6" />
-                WatchList
-              </Button>
+              
             </div>
           </div>
         </div>
