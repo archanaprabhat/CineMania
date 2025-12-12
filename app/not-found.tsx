@@ -19,7 +19,7 @@ export default function NotFound() {
 
             <div className="-mt-12 space-y-4">
               <h3 className="text-4xl font-bold text-black">
-                Look like you're lost
+                Look like you&apos;re lost
               </h3>
               
               <p className="text-lg text-gray-600">

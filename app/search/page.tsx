@@ -41,7 +41,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
     <main className="min-h-screen bg-background pt-24 pb-12 px-4 md:px-8">
       <div className="container mx-auto space-y-12">
         <h1 className="text-3xl font-bold text-foreground">
-          {query ? `Search Results for "${searchParams.q}"` : "Search"}
+          {query ? `Search Results for &quot;${searchParams.q}&quot;` : "Search"}
         </h1>
 
         {!query && (
@@ -50,7 +50,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
 
         {query && !hasResults && (
           <div className="text-center py-20">
-            <p className="text-xl text-muted-foreground">No results found for "{searchParams.q}"</p>
+            <p className="text-xl text-muted-foreground">No results found for &quot;${searchParams.q}&quot;</p>
           </div>
         )}
 

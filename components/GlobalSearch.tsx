@@ -176,7 +176,7 @@ export default function GlobalSearch() {
               type="submit"
               className="w-full text-center py-3 text-sm text-primary hover:bg-accent transition-colors border-t border-border"
             >
-              See all results for "{query}"
+              See all results for &quot;{query}&quot;
             </button>
           </div>
         </div>
