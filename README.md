@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cinematic - Movie & TV Discovery App
+
+A modern, responsive web application built with Next.js 14 for browsing movies and TV shows to create a premium streaming platform experience.
+
+## Tech Stack
+
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animation**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Local Database**: [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) (via raw API)
+
+## Key Features
+
+- **Movies & Shows**: Browsing interface for trending and popular content.
+- **Detailed Views**: comprehensive detail pages with cast, crew, and related content.
+- **Global Search**: Unified search across movies, TV shows, and actors.
+- **Watchlist**: Client-side persistent watchlist using IndexedDB, synchronized with React Context.
+- **Responsive Design**: Mobile-first layout with glassmorphism UI elements (`GlassContainer`, `GlassBadge`).
+
+## Architecture & Data
+
+### Data Source
+
+The application uses a **simulated backend** approach:
+
+- **Static Data**: Core content resides in local JSON files (`data/movies.json`, `data/shows.json`, `data/actors.json`).
+- **Data Access**: `utils/fetchData.ts` acts as the data access layer, reading files server-side to simulate database queries.
+
+### API Integration
+
+- **Internal API**: `app/api/search/route.ts` provides an endpoint for real-time search suggestions by filtering the local JSON data.
+- **External Assets**: While metadata is local, image assets are sourced directly from [TMDB](https://www.themoviedb.org/) (The Movie Database) CDN.
+- **Image Utilities**: `utils/imageUtils.ts` handles logic for generating optimized TMDB image URLs (posters, backdrops, profiles).
+
+### State Management
+
+- **WatchlistContext**: Manages the application-wide state for the user's watchlist.
+- **IndexedDB**: Used directly (via `utils/indexedDB.ts`) to persist watchlist data across sessions without a backend database.
 
 ## Getting Started
 
-First, run the development server:
+1. **Install dependencies**:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   npm install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Run the development server**:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   npm run dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Open the app**:
+   Navigate to [http://localhost:3000](http://localhost:3000).
