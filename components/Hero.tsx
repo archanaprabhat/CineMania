@@ -6,6 +6,7 @@ import Link from "next/link"
 import { Telescope, Plus, Volume2, VolumeX } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Movie } from "@/types/movie"
+import { getBackdropUrl } from "@/utils/imageUtils"
 
 interface HeroProps {
   movie: Movie
@@ -30,9 +31,7 @@ export default function Hero({ movie }: HeroProps) {
     }
   }, [movie])
 
-  const backdropUrl = movie.backdrop_path
-    ? `https://image.tmdb.org/t/p/original${movie.backdrop_path}`
-    : null
+  const backdropUrl = getBackdropUrl(movie.backdrop_path)
 
   return (
     <div className="relative h-[80vh] w-full overflow-hidden">

@@ -7,15 +7,14 @@ import { Star } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Movie } from "@/types/movie"
 import WatchlistButton from "./WatchlistButton"
+import { getPosterUrl } from "@/utils/imageUtils"
 
 interface MovieCardProps {
   movie: Movie
 }
 
 export default function MovieCard({ movie }: MovieCardProps) {
-  const posterUrl = movie.poster_path
-    ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
-    : "/placeholder-poster.png" // Fallback image (we might need to create this or use a color)
+  const posterUrl = getPosterUrl(movie.poster_path)
 
   return (
     <motion.div

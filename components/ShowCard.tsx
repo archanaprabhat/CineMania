@@ -7,15 +7,14 @@ import { Star } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Show } from "@/types/movie"
 import WatchlistButton from "./WatchlistButton"
+import { getPosterUrl } from "@/utils/imageUtils"
 
 interface ShowCardProps {
   show: Show
 }
 
 export default function ShowCard({ show }: ShowCardProps) {
-  const posterUrl = show.poster_path
-    ? `https://image.tmdb.org/t/p/w500${show.poster_path}`
-    : "/placeholder-poster.png"
+  const posterUrl = getPosterUrl(show.poster_path)
 
   return (
     <motion.div

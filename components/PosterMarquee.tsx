@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
+import { getPosterUrl } from "@/utils/imageUtils"
 
 interface PosterMarqueeProps {
   posters: string[]
@@ -43,7 +44,7 @@ export default function PosterMarquee({ posters }: PosterMarqueeProps) {
           {[...row1, ...row1, ...row1].map((poster, i) => (
             <div key={i} className="relative w-48 aspect-2/3 rounded-xl overflow-hidden shadow-2xl border border-white/10 opacity-80 hover:opacity-100 transition-opacity duration-300">
               <Image
-                src={`https://image.tmdb.org/t/p/w300${poster}`}
+                src={getPosterUrl(poster, 'w342') || ""}
                 alt="Movie Poster"
                 fill
                 className="object-cover"
@@ -73,7 +74,7 @@ export default function PosterMarquee({ posters }: PosterMarqueeProps) {
           {[...row2, ...row2, ...row2].map((poster, i) => (
             <div key={i} className="relative w-48 aspect-2/3 rounded-xl overflow-hidden shadow-2xl border border-white/10 opacity-80 hover:opacity-100 transition-opacity duration-300">
               <Image
-                src={`https://image.tmdb.org/t/p/w300${poster}`}
+                src={getPosterUrl(poster, 'w342') || ""}
                 alt="Movie Poster"
                 fill
                 className="object-cover"

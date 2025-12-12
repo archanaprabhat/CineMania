@@ -1,12 +1,14 @@
 import { getMovies } from "@/utils/fetchData"
 import { Movie } from "@/types/movie"
-import Image from "next/image"
-import { Star, Calendar, Clock, Plus } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import MovieCard from "@/components/MovieCard"
+import { Star, Calendar, Clock } from "lucide-react"
 import DetailWatchlistButton from "@/components/DetailWatchlistButton"
 import Link from "next/link"
 import genres from "@/data/genres.json"
+import { DetailHero } from "@/components/details/DetailHero"
+import { CastList } from "@/components/details/CastList"
+import { GlassBadge } from "@/components/ui/glass-badge"
+import { GlassContainer } from "@/components/ui/glass-container"
+import MovieCard from "@/components/MovieCard"
 
 export async function generateStaticParams() {
   const movies: Movie[] = await getMovies()
@@ -39,15 +41,6 @@ export default async function MovieDetailPage({ params }: { params: { id: string
     return <div>Movie not found</div>
   }
 
-  const backdropUrl = movie.backdrop_path
-    ? `https://image.tmdb.org/t/p/original${movie.backdrop_path}`
-    : null
-  
-  const posterUrl = movie.poster_path
-    ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
-    : "/placeholder-poster.png"
-
-  // Get similar movies (same genre)
   const similarMovies = movies
     .filter((m) => m.id !== movie.id && m.genre_ids.some((g) => movie.genre_ids.includes(g)))
     .slice(0, 6)
@@ -56,12 +49,10 @@ export default async function MovieDetailPage({ params }: { params: { id: string
     return genres.find((g) => g.id === id)?.name || "Unknown"
   }
 
-  // Format currency
   const formatCurrency = (value: number) => {
     return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(value)
   }
 
-  // Format runtime
   const formatRuntime = (minutes: number) => {
     const h = Math.floor(minutes / 60)
     const m = minutes % 60
@@ -70,79 +61,34 @@ export default async function MovieDetailPage({ params }: { params: { id: string
 
   return (
     <div className="min-h-screen bg-background pb-12">
-      {/* Hero Section */}
-      <div className="relative h-[70vh] w-full">
-        {backdropUrl && (
-          <Image
-            src={backdropUrl}
-            alt={movie.title}
-            fill
-            className="object-cover brightness-[0.3]"
-            priority
-          />
+      <DetailHero
+        title={movie.title}
+        tagline={movie.tagline}
+        backdropPath={movie.backdrop_path}
+        posterPath={movie.poster_path}
+        actions={<DetailWatchlistButton item={movie} />}
+      >
+        <GlassBadge icon={Calendar}>{new Date(movie.release_date).getFullYear()}</GlassBadge>
+        {(movie.runtime || 0) > 0 && (
+          <GlassBadge icon={Clock}>{formatRuntime(movie.runtime!)}</GlassBadge>
         )}
-        <div className="absolute inset-0 bg-linear-to-t from-background via-transparent to-transparent" />
-        
-        <div className="container mx-auto px-4 h-full flex items-end pb-12 relative z-10">
-          <div className="flex flex-col md:flex-row gap-8 items-end w-full">
-            <div className="hidden md:block relative w-72 aspect-2/3 rounded-xl overflow-hidden shadow-2xl border border-white/10 shrink-0 transform hover:scale-105 transition-transform duration-500">
-              <Image
-                src={posterUrl}
-                alt={movie.title}
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="space-y-6 max-w-4xl flex-1">
-              <div className="space-y-2">
-                <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight drop-shadow-xl">
-                  {movie.title}
-                </h1>
-                {movie.tagline && (
-                  <p className="text-xl md:text-2xl text-gray-300 italic font-light tracking-wide">{movie.tagline}</p>
-                )}
-              </div>
+        <GlassBadge icon={Star} variant="yellow">{movie.vote_average.toFixed(1)}</GlassBadge>
 
-              <div className="flex flex-wrap items-center gap-6 text-sm md:text-base text-gray-300">
-                <div className="flex items-center gap-2 bg-black/40 dark:bg-white/10 px-4 py-2 rounded-full backdrop-blur-md border border-white/10 shadow-sm">
-                  <Calendar className="h-4 w-4 text-white" />
-                  <span className="font-medium text-white">{new Date(movie.release_date).getFullYear()}</span>
-                </div>
-                {(movie.runtime || 0) > 0 && (
-                  <div className="flex items-center gap-2 bg-black/40 dark:bg-white/10 px-4 py-2 rounded-full backdrop-blur-md border border-white/10 shadow-sm">
-                    <Clock className="h-4 w-4 text-white" />
-                    <span className="font-medium text-white">{formatRuntime(movie.runtime!)}</span>
-                  </div>
-                )}
-                <div className="flex items-center gap-2 bg-yellow-500/20 text-yellow-500 px-4 py-2 rounded-full backdrop-blur-md border border-yellow-500/20 shadow-sm">
-                  <Star className="h-4 w-4 fill-yellow-500" />
-                  <span className="font-bold">{movie.vote_average.toFixed(1)}</span>
-                </div>
-              </div>
-
-              <div className="flex flex-wrap gap-2">
-                {movie.genre_ids.map((id) => (
-                  <Link key={id} href={`/movies?genre=${id}`}>
-                    <span className="px-4 py-1.5 rounded-full bg-white/5 text-xs md:text-sm backdrop-blur-sm border border-white/10 hover:bg-white/20 hover:border-white/30 transition-all cursor-pointer text-gray-200 font-medium">
-                      {getGenreName(id)}
-                    </span>
-                  </Link>
-                ))}
-              </div>
-
-              <div className="flex gap-4 pt-4">
-                <DetailWatchlistButton item={movie} />
-              </div>
-            </div>
-          </div>
+        <div className="flex flex-wrap gap-2">
+          {movie.genre_ids.map((id) => (
+            <Link key={id} href={`/movies?genre=${id}`}>
+              <span className="px-4 py-1.5 rounded-full bg-white/5 text-xs md:text-sm backdrop-blur-sm border border-white/10 hover:bg-white/20 hover:border-white/30 transition-all cursor-pointer text-gray-200 font-medium">
+                {getGenreName(id)}
+              </span>
+            </Link>
+          ))}
         </div>
-      </div>
+      </DetailHero>
 
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           {/* Main Content (Left 8/12) */}
           <div className="lg:col-span-8 space-y-16">
-            {/* Overview */}
             <section className="space-y-6">
               <h2 className="text-3xl font-bold tracking-tight">Storyline</h2>
               <p className="text-lg md:text-xl leading-relaxed font-light">
@@ -150,44 +96,12 @@ export default async function MovieDetailPage({ params }: { params: { id: string
               </p>
             </section>
 
-            {/* Top Cast */}
-            {movie.credits?.cast && movie.credits.cast.length > 0 && (
-              <section className="space-y-6">
-                <div className="flex items-center justify-between">
-                  <h2 className="text-3xl font-bold text-foreground dark:text-white tracking-tight">Top Cast</h2>
-                </div>
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-                  {movie.credits.cast.slice(0, 8).map((person) => (
-                    <div key={person.id} className="group space-y-3">
-                      <div className="relative aspect-2/3 rounded-xl overflow-hidden bg-zinc-100 dark:bg-zinc-800 shadow-lg transition-transform duration-300 group-hover:scale-105">
-                        {person.profile_path ? (
-                          <Image
-                            src={`https://image.tmdb.org/t/p/w300${person.profile_path}`}
-                            alt={person.name}
-                            fill
-                            className="object-cover"
-                          />
-                        ) : (
-                          <div className="flex h-full items-center justify-center text-zinc-400 dark:text-zinc-500">
-                            No Image
-                          </div>
-                        )}
-                        <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                      </div>
-                      <div>
-                        <p className="font-semibold text-foreground dark:text-white text-lg leading-tight">{person.name}</p>
-                        <p className="text-sm text-muted-foreground dark:text-gray-400">{person.character}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </section>
-            )}
+            {movie.credits?.cast && <CastList cast={movie.credits.cast} />}
           </div>
 
           {/* Sidebar (Right 4/12) */}
           <div className="lg:col-span-4 space-y-8">
-            <div className="bg-white/80 dark:bg-zinc-900/50 rounded-2xl border border-zinc-200/50 dark:border-white/10 p-8 space-y-8 backdrop-blur-xl shadow-lg">
+            <GlassContainer className="space-y-8">
               <div>
                 <h3 className="text-muted-foreground text-sm font-medium uppercase tracking-wider mb-2">Status</h3>
                 <p className="text-xl text-foreground dark:text-white font-semibold">{movie.status || 'Released'}</p>
@@ -211,11 +125,11 @@ export default async function MovieDetailPage({ params }: { params: { id: string
                   <p className="text-xl text-foreground dark:text-white font-semibold">{formatCurrency(movie.revenue || 0)}</p>
                 </div>
               )}
-            </div>
+            </GlassContainer>
 
             {/* Crew */}
             {movie.credits?.crew && movie.credits.crew.filter(c => ['Director', 'Screenplay', 'Writer'].includes(c.job)).length > 0 && (
-              <div className="bg-white/80 dark:bg-zinc-900/50 rounded-2xl border border-zinc-200/50 dark:border-white/10 p-8 space-y-6 backdrop-blur-xl shadow-lg">
+              <GlassContainer className="space-y-6">
                  <h3 className="text-xl font-bold text-foreground dark:text-white">Key Crew</h3>
                  <div className="space-y-4">
                    {movie.credits.crew
@@ -228,7 +142,7 @@ export default async function MovieDetailPage({ params }: { params: { id: string
                        </div>
                      ))}
                  </div>
-              </div>
+              </GlassContainer>
             )}
           </div>
         </div>

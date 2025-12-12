@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import Image from "next/image"
+import { getPosterUrl, getProfileUrl } from "@/utils/imageUtils"
 
 interface SearchResult {
   id: number
@@ -148,7 +149,7 @@ export default function GlobalSearch() {
                 <div className="relative h-12 w-8 shrink-0 rounded overflow-hidden bg-muted">
                   {(result.poster_path || result.profile_path) ? (
                     <Image
-                      src={`https://image.tmdb.org/t/p/w92${result.poster_path || result.profile_path}`}
+                      src={getPosterUrl(result.poster_path, 'w92') || getProfileUrl(result.profile_path, 'w45') || ""}
                       alt={result.title || result.name || ""}
                       fill
                       className="object-cover"
