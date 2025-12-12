@@ -6,6 +6,7 @@ import { motion } from "framer-motion"
 import { Star } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Movie } from "@/types/movie"
+import WatchlistButton from "./WatchlistButton"
 
 interface MovieCardProps {
   movie: Movie
@@ -17,14 +18,17 @@ export default function MovieCard({ movie }: MovieCardProps) {
     : "/placeholder-poster.png" // Fallback image (we might need to create this or use a color)
 
   return (
-    <Link href={`/movies/${movie.id}`}>
-      <motion.div
-        whileHover={{ scale: 1.05 }}
-        transition={{ duration: 0.2 }}
-      >
-        <Card className="overflow-hidden border-0 bg-transparent shadow-none group">
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      transition={{ duration: 0.2 }}
+    >
+      <Card className="overflow-hidden border-0 bg-transparent shadow-none group relative">
+        <div className="absolute top-2 right-2 z-20 opacity-0 group-hover:opacity-100 transition-opacity">
+          <WatchlistButton item={movie} />
+        </div>
+        <Link href={`/movies/${movie.id}`}>
           <CardContent className="p-0">
-            <div className="relative aspect-[2/3] w-full overflow-hidden rounded-md bg-muted">
+            <div className="relative aspect-2/3 w-full overflow-hidden rounded-md bg-muted">
               {movie.poster_path ? (
                 <Image
                   src={posterUrl}
@@ -52,8 +56,8 @@ export default function MovieCard({ movie }: MovieCardProps) {
               </div>
             </div>
           </CardContent>
-        </Card>
-      </motion.div>
-    </Link>
+        </Link>
+      </Card>
+    </motion.div>
   )
 }

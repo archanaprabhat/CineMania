@@ -4,6 +4,7 @@ import Image from "next/image"
 import { Star, Calendar, Clock, Plus, Layers } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import ShowCard from "@/components/ShowCard"
+import DetailWatchlistButton from "@/components/DetailWatchlistButton"
 import Link from "next/link"
 import genres from "@/data/genres.json"
 
@@ -133,10 +134,7 @@ export default async function ShowDetailPage({ params }: { params: { id: string 
               </div>
 
               <div className="flex gap-4 pt-4">
-                <Button size="lg" className="bg-white text-black hover:bg-gray-200 font-bold px-8 rounded-full h-12 gap-2 transition-all transform hover:scale-105">
-                  <Plus className="h-5 w-5" />
-                  Add to Watchlist
-                </Button>
+                <DetailWatchlistButton item={show} />
               </div>
             </div>
           </div>
@@ -149,8 +147,8 @@ export default async function ShowDetailPage({ params }: { params: { id: string 
           <div className="lg:col-span-8 space-y-16">
             {/* Overview */}
             <section className="space-y-6">
-              <h2 className="text-3xl font-bold text-foreground dark:text-white tracking-tight">Storyline</h2>
-              <p className="text-lg md:text-xl text-muted-foreground dark:text-gray-300 leading-relaxed font-light">
+              <h2 className="text-3xl font-bold tracking-tight">Storyline</h2>
+              <p className="text-lg md:text-xl leading-relaxed font-light">
                 {show.overview}
               </p>
             </section>
