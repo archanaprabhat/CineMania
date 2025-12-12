@@ -28,11 +28,10 @@ export default async function LandingPage() {
     getActors(),
   ]);
 
-  const { heroMovie, posters } = getLandingData({ movies, shows });
+  const { posters } = getLandingData({ movies, shows });
 
   return (
     <main className="min-h-screen bg-background text-foreground selection:bg-primary selection:text-white">
-      <LandingHero movie={heroMovie} />
 
       <Stats
         movieCount={movies.length}

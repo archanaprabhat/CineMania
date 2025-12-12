@@ -6,7 +6,7 @@ import { Moon, Sun } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import GlobalSearch from "@/components/GlobalSearch"
 
-import { useState, useEffect } from "react"
+import { Suspense, useState, useEffect } from "react"
 
 export default function Header() {
   const { theme, setTheme } = useTheme()
@@ -40,7 +40,9 @@ export default function Header() {
         </div>
 
         <div className="flex items-center gap-4">
-          <GlobalSearch />
+          <Suspense>
+            <GlobalSearch />
+          </Suspense>
           
           {mounted && (
             <Button
