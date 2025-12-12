@@ -6,7 +6,7 @@ import { Moon, Sun } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import GlobalSearch from "@/components/GlobalSearch"
 
-import { Suspense, useState, useEffect } from "react"
+import { useState, useEffect, Suspense } from "react"
 
 export default function Header() {
   const { theme, setTheme } = useTheme()
