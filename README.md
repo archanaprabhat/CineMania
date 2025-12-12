@@ -31,6 +31,81 @@ The application uses a **simulated backend** approach:
 - **WatchlistContext**: Manages the application-wide state for the user's watchlist.
 - **IndexedDB**: Used directly (via `utils/indexedDB.ts`) to persist watchlist data across sessions without a backend database.
 
+Here’s a clean, polished, copy-paste-ready version — concise, consistent, and recruiter-friendly:
+
+---
+
+## Dataset Used
+
+This project uses static data generated from **TMDB (The Movie Database)**.
+Source: [https://www.themoviedb.org/](https://www.themoviedb.org/)
+
+**Extracted data includes:**
+
+* Popular & top-rated movies
+* Popular & trending TV shows
+* Actor / cast data
+* Official TMDB genre lists
+
+Only UI-relevant fields were used:
+`title`, `poster_path`, `backdrop_path`, `overview`, `vote_average`, `popularity`, `genres`, `release_date`.
+
+---
+
+## How the Dataset Was Generated
+
+Since the assignment required **no backend**, the dataset was created using a simple **Node.js script**.
+
+**Process followed:**
+
+1. Called TMDB API endpoints such as:
+   `/movie/popular`, `/movie/top_rated`, `/tv/popular`, `/tv/trending`, `/genre/movie/list`, etc.
+2. Selected only the fields needed for UI rendering.
+3. Cleaned and normalized the objects.
+4. Saved all results as static JSON inside the `/data` folder:
+
+```
+data/
+  movies.json
+  shows.json
+  actors.json
+```
+
+5. Loaded these JSON files during **SSG** using `fs.readFileSync` inside `utils/fetchData.ts`.
+
+---
+
+## AI Prompts Used
+
+Below are the exact prompts used during development:
+
+### 1. Project Setup Prompt
+
+“Scaffold a full project setup using Next.js 14 App Router, TypeScript, Tailwind CSS, ESLint + Prettier, Lucide React, and Framer Motion.
+All data should come from static JSON files via SSG.
+Create folders: `app/`, `components/`, `data/`, `types/`, `utils/`.”
+
+### 2. SEO Setup Prompt
+
+“Generate sitemap, robots.txt, metadata config, and a dynamic OG image setup for a Next.js App Router project.
+Make sure the paths, slugs, and data types are correct.”
+
+### 3. Node Script Prompt
+
+“Write a simple Node.js script to fetch movies, shows, genres, and actors from TMDB, normalize the fields, and save them into JSON inside a `/data` folder.”
+
+---
+
+## What I Would Improve With Two More Days
+
+* Add **GSAP animations** and light **Three.js** effects for richer interactivity and motion.
+* Add more refined **micro-interactions** on cards and buttons.
+
+---
+
+If you want, I can now integrate this directly into your full README with perfect formatting.
+
+
 ## Getting Started
 
 1. **Install dependencies**:
