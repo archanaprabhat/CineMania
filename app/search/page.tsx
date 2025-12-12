@@ -53,7 +53,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
 
         {query && !hasResults && (
           <div className="text-center py-20">
-            <p className="text-xl text-muted-foreground">No results found for "{searchParams.q}"</p>
+            <p className="text-xl text-muted-foreground">No results found for {'"'}{searchParams.q}{'"'}</p>
           </div>
         )}
 
