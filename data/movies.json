@@ -2,13 +2,7 @@
   {
     "adult": false,
     "backdrop_path": "/5h2EsPKNDdB3MAtOk9MB9Ycg9Rz.jpg",
-    "genre_ids": [
-      16,
-      35,
-      12,
-      10751,
-      9648
-    ],
+    "genre_ids": [16, 35, 12, 10751, 9648],
     "id": 1084242,
     "original_language": "en",
     "original_title": "Zootopia 2",
@@ -425,11 +419,7 @@
   {
     "adult": false,
     "backdrop_path": "/min9ZUDZbiguTiQ7yz1Hbqk78HT.jpg",
-    "genre_ids": [
-      878,
-      12,
-      28
-    ],
+    "genre_ids": [878, 12, 28],
     "id": 533533,
     "original_language": "en",
     "original_title": "TRON: Ares",
@@ -990,11 +980,7 @@
   {
     "adult": false,
     "backdrop_path": "/lZYMXx74pWmbj5Q5jp1QaMvmuuR.jpg",
-    "genre_ids": [
-      28,
-      14,
-      53
-    ],
+    "genre_ids": [28, 14, 53],
     "id": 1180831,
     "original_language": "no",
     "original_title": "Troll 2",
@@ -1076,10 +1062,7 @@
   {
     "adult": false,
     "backdrop_path": "/bhhgVjnZ69ZoCGYvVT3djnAWSJA.jpg",
-    "genre_ids": [
-      27,
-      53
-    ],
+    "genre_ids": [27, 53],
     "id": 1228246,
     "original_language": "en",
     "original_title": "Five Nights at Freddy's 2",
@@ -1233,12 +1216,7 @@
   {
     "adult": false,
     "backdrop_path": "/3k1PKmzNEosWFaOR1yC9ZKIYqmm.jpg",
-    "genre_ids": [
-      14,
-      16,
-      28,
-      878
-    ],
+    "genre_ids": [14, 16, 28, 878],
     "id": 23527,
     "original_language": "ru",
     "original_title": "Первый отряд",
@@ -1258,11 +1236,7 @@
   {
     "adult": false,
     "backdrop_path": "/w57nxiBIODAYHLRs1xmrCY9zEFe.jpg",
-    "genre_ids": [
-      28,
-      18,
-      14
-    ],
+    "genre_ids": [28, 18, 14],
     "id": 1083637,
     "original_language": "kn",
     "original_title": "ಕಾಂತಾರ: ಅಧ್ಯಾಯ - ೧",
@@ -1319,11 +1293,7 @@
   {
     "adult": false,
     "backdrop_path": "/pAyImoslSnpMgjRwhaS5ZEdl8UI.jpg",
-    "genre_ids": [
-      28,
-      53,
-      80
-    ],
+    "genre_ids": [28, 53, 80],
     "id": 1448560,
     "original_language": "en",
     "original_title": "Wildcat",
@@ -1356,11 +1326,7 @@
   {
     "adult": false,
     "backdrop_path": "/otSXrUWOTX7tTigLBMFKOV8n47r.jpg",
-    "genre_ids": [
-      27,
-      14,
-      10749
-    ],
+    "genre_ids": [27, 14, 10749],
     "id": 1246049,
     "original_language": "fr",
     "original_title": "Dracula",
@@ -1429,11 +1395,7 @@
   {
     "adult": false,
     "backdrop_path": "/lf8IZ86ajGpgbuyHCZrXUeAMmvy.jpg",
-    "genre_ids": [
-      28,
-      12,
-      878
-    ],
+    "genre_ids": [28, 12, 878],
     "id": 1033462,
     "original_language": "zh",
     "original_title": "749局",
@@ -1453,11 +1415,7 @@
   {
     "adult": false,
     "backdrop_path": "/ebyxeBh56QNXxSJgTnmz7fXAlwk.jpg",
-    "genre_ids": [
-      28,
-      878,
-      12
-    ],
+    "genre_ids": [28, 878, 12],
     "id": 1242898,
     "original_language": "en",
     "original_title": "Predator: Badlands",
@@ -2079,12 +2037,7 @@
   {
     "adult": false,
     "backdrop_path": "/kfXgo2rMF1A19celCwLyQ4Xwpf8.jpg",
-    "genre_ids": [
-      16,
-      28,
-      10749,
-      14
-    ],
+    "genre_ids": [16, 28, 10749, 14],
     "id": 1218925,
     "original_language": "ja",
     "original_title": "劇場版 チェンソーマン レゼ篇",
@@ -2237,11 +2190,7 @@
   {
     "adult": false,
     "backdrop_path": "/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
-    "genre_ids": [
-      28,
-      80,
-      53
-    ],
+    "genre_ids": [28, 80, 53],
     "id": 1419406,
     "original_language": "zh",
     "original_title": "捕风追影",
@@ -2479,10 +2428,7 @@
   {
     "adult": false,
     "backdrop_path": "/8lqfrOBQ2EcY7znD3LxTYcvlh25.jpg",
-    "genre_ids": [
-      28,
-      80
-    ],
+    "genre_ids": [28, 80],
     "id": 949709,
     "original_language": "zh",
     "original_title": "危机航线",
@@ -2515,10 +2461,7 @@
   {
     "adult": false,
     "backdrop_path": "/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
-    "genre_ids": [
-      878,
-      53
-    ],
+    "genre_ids": [878, 53],
     "id": 755898,
     "original_language": "en",
     "original_title": "War of the Worlds",
@@ -2551,9 +2494,7 @@
   {
     "adult": false,
     "backdrop_path": "/7cQjb8cRbRjF5tM5gOCnqsvC0iT.jpg",
-    "genre_ids": [
-      53
-    ],
+    "genre_ids": [53],
     "id": 1561955,
     "original_language": "ta",
     "original_title": "ஸ்டீபன்",
@@ -2573,11 +2514,7 @@
   {
     "adult": false,
     "backdrop_path": "/hpXBJxLD2SEf8l2CspmSeiHrBKX.jpg",
-    "genre_ids": [
-      18,
-      14,
-      27
-    ],
+    "genre_ids": [18, 14, 27],
     "id": 1062722,
     "original_language": "en",
     "original_title": "Frankenstein",
@@ -2934,10 +2871,7 @@
   {
     "adult": false,
     "backdrop_path": "/q9bvjUkpKltPE0S9oxci2pmD1Zx.jpg",
-    "genre_ids": [
-      878,
-      28
-    ],
+    "genre_ids": [878, 28],
     "id": 1309012,
     "original_language": "en",
     "original_title": "Altered",
@@ -3018,12 +2952,7 @@
   {
     "adult": false,
     "backdrop_path": "/9tOkjBEiiGcaClgJFtwocStZvIT.jpg",
-    "genre_ids": [
-      16,
-      12,
-      10751,
-      35
-    ],
+    "genre_ids": [16, 12, 10751, 35],
     "id": 269149,
     "original_language": "en",
     "original_title": "Zootopia",
@@ -3296,11 +3225,7 @@
   {
     "adult": false,
     "backdrop_path": "/l8pwO23MCvqYumzozpxynCNfck1.jpg",
-    "genre_ids": [
-      14,
-      12,
-      10749
-    ],
+    "genre_ids": [14, 12, 10749],
     "id": 967941,
     "original_language": "en",
     "original_title": "Wicked: For Good",
@@ -4473,10 +4398,7 @@
   {
     "adult": false,
     "backdrop_path": "/7nAVXGHHtaNcdsqvDXmY6R9N0fG.jpg",
-    "genre_ids": [
-      28,
-      35
-    ],
+    "genre_ids": [28, 35],
     "id": 1363123,
     "original_language": "en",
     "original_title": "The Family Plan 2",
@@ -4581,10 +4503,7 @@
   {
     "adult": false,
     "backdrop_path": "/zfbjgQE1uSd9wiPTX4VzsLi0rGG.jpg",
-    "genre_ids": [
-      18,
-      80
-    ],
+    "genre_ids": [18, 80],
     "id": 278,
     "original_language": "en",
     "original_title": "The Shawshank Redemption",
@@ -4857,10 +4776,7 @@
   {
     "adult": false,
     "backdrop_path": "/39rtAdg3yx6IDxRg0ZLXefv0aPY.jpg",
-    "genre_ids": [
-      18,
-      80
-    ],
+    "genre_ids": [18, 80],
     "id": 238,
     "original_language": "en",
     "original_title": "The Godfather",
@@ -5181,10 +5097,7 @@
   {
     "adult": false,
     "backdrop_path": "/14icRpwdgpHEHxt7Cn5hr2RQEsF.jpg",
-    "genre_ids": [
-      18,
-      80
-    ],
+    "genre_ids": [18, 80],
     "id": 240,
     "original_language": "en",
     "original_title": "The Godfather Part II",
@@ -5265,11 +5178,7 @@
   {
     "adult": false,
     "backdrop_path": "/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
-    "genre_ids": [
-      18,
-      36,
-      10752
-    ],
+    "genre_ids": [18, 36, 10752],
     "id": 424,
     "original_language": "en",
     "original_title": "Schindler's List",
@@ -5602,9 +5511,7 @@
   {
     "adult": false,
     "backdrop_path": "/w4bTBXcqXc2TUyS5Fc4h67uWbPn.jpg",
-    "genre_ids": [
-      18
-    ],
+    "genre_ids": [18],
     "id": 389,
     "original_language": "en",
     "original_title": "12 Angry Men",
@@ -5709,11 +5616,7 @@
   {
     "adult": false,
     "backdrop_path": "/ukfI9QkU1aIhOhKXYWE9n3z1mFR.jpg",
-    "genre_ids": [
-      16,
-      10751,
-      14
-    ],
+    "genre_ids": [16, 10751, 14],
     "id": 129,
     "original_language": "ja",
     "original_title": "千と千尋の神隠し",
@@ -5794,12 +5697,7 @@
   {
     "adult": false,
     "backdrop_path": "/dqK9Hag1054tghRQSqLSfrkvQnA.jpg",
-    "genre_ids": [
-      18,
-      28,
-      80,
-      53
-    ],
+    "genre_ids": [18, 28, 80, 53],
     "id": 155,
     "original_language": "en",
     "original_title": "The Dark Knight",
@@ -6000,11 +5898,7 @@
   {
     "adult": false,
     "backdrop_path": "/zQDFHYNVVVp9OAYSixYAG1SyX1l.jpg",
-    "genre_ids": [
-      35,
-      18,
-      10749
-    ],
+    "genre_ids": [35, 18, 10749],
     "id": 19404,
     "original_language": "hi",
     "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
@@ -6037,11 +5931,7 @@
   {
     "adult": false,
     "backdrop_path": "/b6HWTOxn1xevvyHU2K9ICvaRU6g.jpg",
-    "genre_ids": [
-      14,
-      18,
-      80
-    ],
+    "genre_ids": [14, 18, 80],
     "id": 497,
     "original_language": "en",
     "original_title": "The Green Mile",
@@ -6231,11 +6121,7 @@
   {
     "adult": false,
     "backdrop_path": "/hiKmpZMGZsrkA3cdce8a7Dpos1j.jpg",
-    "genre_ids": [
-      35,
-      53,
-      18
-    ],
+    "genre_ids": [35, 53, 18],
     "id": 496243,
     "original_language": "ko",
     "original_title": "기생충",
@@ -6772,11 +6658,7 @@
   {
     "adult": false,
     "backdrop_path": "/2u7zbn8EudG6kLlBzUYqP8RyFU4.jpg",
-    "genre_ids": [
-      12,
-      14,
-      28
-    ],
+    "genre_ids": [12, 14, 28],
     "id": 122,
     "original_language": "en",
     "original_title": "The Lord of the Rings: The Return of the King",
@@ -6893,11 +6775,7 @@
   {
     "adult": false,
     "backdrop_path": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
-    "genre_ids": [
-      53,
-      80,
-      35
-    ],
+    "genre_ids": [53, 80, 35],
     "id": 680,
     "original_language": "en",
     "original_title": "Pulp Fiction",
@@ -7350,11 +7228,7 @@
   {
     "adult": false,
     "backdrop_path": "/8x9iKH8kWA0zdkgNdpAew7OstYe.jpg",
-    "genre_ids": [
-      16,
-      10749,
-      18
-    ],
+    "genre_ids": [16, 10749, 18],
     "id": 372058,
     "original_language": "ja",
     "original_title": "君の名は。",
@@ -7423,9 +7297,7 @@
   {
     "adult": false,
     "backdrop_path": "/Adrip2Jqzw56KeuV2nAxucKMNXA.jpg",
-    "genre_ids": [
-      37
-    ],
+    "genre_ids": [37],
     "id": 429,
     "original_language": "it",
     "original_title": "Il buono, il brutto, il cattivo",
@@ -7566,11 +7438,7 @@
   {
     "adult": false,
     "backdrop_path": "/5XNQBqnBwPA9yT0jZ0p3s8bbLh0.jpg",
-    "genre_ids": [
-      12,
-      18,
-      878
-    ],
+    "genre_ids": [12, 18, 878],
     "id": 157336,
     "original_language": "en",
     "original_title": "Interstellar",
@@ -8107,11 +7975,7 @@
   {
     "adult": false,
     "backdrop_path": "/67HggiWaP9ZLv5sPYmyRV37yAJM.jpg",
-    "genre_ids": [
-      35,
-      18,
-      10749
-    ],
+    "genre_ids": [35, 18, 10749],
     "id": 13,
     "original_language": "en",
     "original_title": "Forrest Gump",
@@ -8409,10 +8273,7 @@
   {
     "adult": false,
     "backdrop_path": "/gILte6Zd7m1YneIr6MVhh30S9pr.jpg",
-    "genre_ids": [
-      18,
-      80
-    ],
+    "genre_ids": [18, 80],
     "id": 769,
     "original_language": "en",
     "original_title": "GoodFellas",
@@ -8673,10 +8534,7 @@
   {
     "adult": false,
     "backdrop_path": "/qvZ91FwMq6O47VViAr8vZNQz3WI.jpg",
-    "genre_ids": [
-      28,
-      18
-    ],
+    "genre_ids": [28, 18],
     "id": 346,
     "original_language": "ja",
     "original_title": "七人の侍",
@@ -8793,11 +8651,7 @@
   {
     "adult": false,
     "backdrop_path": "/aHaqZpOL7UyVu0nKqp3SMz0o2E1.jpg",
-    "genre_ids": [
-      16,
-      18,
-      10752
-    ],
+    "genre_ids": [16, 18, 10752],
     "id": 12477,
     "original_language": "ja",
     "original_title": "火垂るの墓",
@@ -8902,10 +8756,7 @@
   {
     "adult": false,
     "backdrop_path": "/6aNKD81RHR1DqUUa8kOZ1TBY1Lp.jpg",
-    "genre_ids": [
-      35,
-      18
-    ],
+    "genre_ids": [35, 18],
     "id": 637,
     "original_language": "it",
     "original_title": "La vita è bella",
@@ -8938,11 +8789,7 @@
   {
     "adult": false,
     "backdrop_path": "/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
-    "genre_ids": [
-      16,
-      28,
-      14
-    ],
+    "genre_ids": [16, 28, 14],
     "id": 1311031,
     "original_language": "ja",
     "original_title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
@@ -9239,10 +9086,7 @@
   {
     "adult": false,
     "backdrop_path": "/eMBYlgFTHfZaTz96eJxlkeMsKo9.jpg",
-    "genre_ids": [
-      16,
-      28
-    ],
+    "genre_ids": [16, 28],
     "id": 1539104,
     "original_language": "ja",
     "original_title": "劇場版 呪術廻戦「渋谷事変 特別編集版」×「死滅回游 先行上映」",
@@ -9359,10 +9203,7 @@
   {
     "adult": false,
     "backdrop_path": "/wR9D9hQvCVBux16NauY4b7letdU.jpg",
-    "genre_ids": [
-      18,
-      35
-    ],
+    "genre_ids": [18, 35],
     "id": 1069905,
     "original_language": "en",
     "original_title": "Jay Kelly",
@@ -9551,10 +9392,7 @@
   {
     "adult": false,
     "backdrop_path": "/7NRGAtu8E4343NSKwhkgmVRDINw.jpg",
-    "genre_ids": [
-      27,
-      53
-    ],
+    "genre_ids": [27, 53],
     "id": 507089,
     "original_language": "en",
     "original_title": "Five Nights at Freddy's",
@@ -9840,11 +9678,7 @@
   {
     "adult": false,
     "backdrop_path": "/iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg",
-    "genre_ids": [
-      878,
-      12,
-      14
-    ],
+    "genre_ids": [878, 12, 14],
     "id": 83533,
     "original_language": "en",
     "original_title": "Avatar: Fire and Ash",
@@ -10153,11 +9987,7 @@
   {
     "adult": false,
     "backdrop_path": "/ufqytAlziHq5pljKByGJ8IKhtEZ.jpg",
-    "genre_ids": [
-      53,
-      80,
-      9648
-    ],
+    "genre_ids": [53, 80, 9648],
     "id": 425274,
     "original_language": "en",
     "original_title": "Now You See Me: Now You Don't",
@@ -10742,10 +10572,7 @@
   {
     "adult": false,
     "backdrop_path": "/tN3pTxkQoP96wtaEahYuRVdUWb2.jpg",
-    "genre_ids": [
-      878,
-      80
-    ],
+    "genre_ids": [878, 80],
     "id": 701387,
     "original_language": "en",
     "original_title": "Bugonia",
@@ -10982,11 +10809,7 @@
   {
     "adult": false,
     "backdrop_path": "/ytCi1wg6YHpYcFRWCO2jpzN31Kf.jpg",
-    "genre_ids": [
-      28,
-      53,
-      80
-    ],
+    "genre_ids": [28, 53, 80],
     "id": 1196573,
     "original_language": "en",
     "original_title": "She Rides Shotgun",
@@ -11019,10 +10842,7 @@
   {
     "adult": false,
     "backdrop_path": "/dEkFlZzj2cb5F7SShvqkL54E4lr.jpg",
-    "genre_ids": [
-      18,
-      53
-    ],
+    "genre_ids": [18, 53],
     "id": 1033148,
     "original_language": "en",
     "original_title": "Die My Love",
@@ -11223,10 +11043,7 @@
   {
     "adult": false,
     "backdrop_path": "/7SgljBnhPPoHxKoQL5ooIhrEgAS.jpg",
-    "genre_ids": [
-      28,
-      10752
-    ],
+    "genre_ids": [28, 10752],
     "id": 1223601,
     "original_language": "fi",
     "original_title": "Sisu 2",
@@ -11451,10 +11268,7 @@
   {
     "adult": false,
     "backdrop_path": "/jOuu4mEBOuJVb6CkkmRDpjnrZed.jpg",
-    "genre_ids": [
-      27,
-      9648
-    ],
+    "genre_ids": [27, 9648],
     "id": 937941,
     "original_language": "en",
     "original_title": "Shelby Oaks",
@@ -11559,11 +11373,7 @@
   {
     "adult": false,
     "backdrop_path": "/2YOnE2qmoyyOUqQsFit12gDSauk.jpg",
-    "genre_ids": [
-      80,
-      35,
-      18
-    ],
+    "genre_ids": [80, 35, 18],
     "id": 1242419,
     "original_language": "en",
     "original_title": "Roofman",
@@ -12004,9 +11814,7 @@
   {
     "adult": false,
     "backdrop_path": "/mDIMSMXFkOXUyQ2lnmeBu6kDUCH.jpg",
-    "genre_ids": [
-      18
-    ],
+    "genre_ids": [18],
     "id": 1124566,
     "original_language": "no",
     "original_title": "Affeksjonsverdi",
@@ -12160,11 +11968,7 @@
   {
     "adult": false,
     "backdrop_path": "/fTrQsdMS2MUw00RnzH0r3JWHhts.jpg",
-    "genre_ids": [
-      28,
-      80,
-      53
-    ],
+    "genre_ids": [28, 80, 53],
     "id": 1197306,
     "original_language": "en",
     "original_title": "A Working Man",
@@ -12329,10 +12133,7 @@
   {
     "adult": false,
     "backdrop_path": "/iMxWTPRqWJJKVW7KYBlmirSeazw.jpg",
-    "genre_ids": [
-      10749,
-      35
-    ],
+    "genre_ids": [10749, 35],
     "id": 1429520,
     "original_language": "en",
     "original_title": "Sidelined 2: Intercepted",
@@ -12365,10 +12166,7 @@
   {
     "adult": false,
     "backdrop_path": "/jUCjlKn6CVnmVV8ht82sdGiUoTV.jpg",
-    "genre_ids": [
-      27,
-      9648
-    ],
+    "genre_ids": [27, 9648],
     "id": 1288072,
     "original_language": "en",
     "original_title": "Keeper",
@@ -12473,10 +12271,7 @@
   {
     "adult": false,
     "backdrop_path": "/xsO1Qgru8sETLTcVla8MrqxOVr0.jpg",
-    "genre_ids": [
-      36,
-      18
-    ],
+    "genre_ids": [36, 18],
     "id": 1214931,
     "original_language": "en",
     "original_title": "Nuremberg",
@@ -12725,11 +12520,7 @@
   {
     "adult": false,
     "backdrop_path": "/1ktHy4yBupG3JzYoFsQ8DFoqZh4.jpg",
-    "genre_ids": [
-      80,
-      18,
-      53
-    ],
+    "genre_ids": [80, 18, 53],
     "id": 639988,
     "original_language": "ko",
     "original_title": "어쩔수가없다",
@@ -12822,12 +12613,7 @@
   {
     "adult": false,
     "backdrop_path": "/zIFFlcvilrrbUlveEbIsFAtUfGT.jpg",
-    "genre_ids": [
-      16,
-      12,
-      10751,
-      35
-    ],
+    "genre_ids": [16, 12, 10751, 35],
     "id": 1214130,
     "original_language": "en",
     "original_title": "Stitch Head",
@@ -13088,11 +12874,7 @@
   {
     "adult": false,
     "backdrop_path": "/oN9YR2ND8UPmP1y4nN5StJOD1RG.jpg",
-    "genre_ids": [
-      10749,
-      18,
-      35
-    ],
+    "genre_ids": [10749, 18, 35],
     "id": 1259102,
     "original_language": "en",
     "original_title": "Eternity",
@@ -13233,10 +13015,7 @@
   {
     "adult": false,
     "backdrop_path": "/mPtPJzBkwksUoMEKpkZqxBrlKpZ.jpg",
-    "genre_ids": [
-      27,
-      53
-    ],
+    "genre_ids": [27, 53],
     "id": 1422096,
     "original_language": "en",
     "original_title": "Good Boy",
@@ -13293,10 +13072,7 @@
   {
     "adult": false,
     "backdrop_path": "/jr2tjSvV6SOMCcOLYMz9TSvOjgC.jpg",
-    "genre_ids": [
-      18,
-      35
-    ],
+    "genre_ids": [18, 35],
     "id": 1317288,
     "original_language": "en",
     "original_title": "Marty Supreme",
@@ -13425,10 +13201,7 @@
   {
     "adult": false,
     "backdrop_path": "/yt9m5CiU2MZkQoNl1kqLPODNR4t.jpg",
-    "genre_ids": [
-      18,
-      10749
-    ],
+    "genre_ids": [18, 10749],
     "id": 858024,
     "original_language": "en",
     "original_title": "Hamnet",
@@ -13617,9 +13390,7 @@
   {
     "adult": false,
     "backdrop_path": "/qFxULMQeFTdo2dcuviEdwks3CIO.jpg",
-    "genre_ids": [
-      27
-    ],
+    "genre_ids": [27],
     "id": 1286185,
     "original_language": "en",
     "original_title": "The Carpenter's Son",

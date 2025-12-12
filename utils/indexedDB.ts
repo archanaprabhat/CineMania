@@ -8,7 +8,7 @@ export interface WatchlistItem {
   id: number;
   title: string; // 'title' for movie, 'name' for show
   poster_path: string | null;
-  media_type: 'movie' | 'tv';
+  media_type: "movie" | "tv";
   vote_average: number;
   release_date?: string; // or first_air_date
 }
@@ -18,7 +18,10 @@ export const initDB = async (): Promise<IDBDatabase> => {
     const request = indexedDB.open(DB_NAME, DB_VERSION);
 
     request.onerror = (event) => {
-      console.error("IndexedDB error:",  (event.target as IDBOpenDBRequest).error);
+      console.error(
+        "IndexedDB error:",
+        (event.target as IDBOpenDBRequest).error,
+      );
       reject("Error opening database");
     };
 
@@ -44,13 +47,16 @@ export const addToWatchlist = async (item: WatchlistItem): Promise<void> => {
     const request = store.put(item);
 
     request.onsuccess = () => {
-        resolve();
+      resolve();
     };
 
     request.onerror = (event) => {
-        console.error("Error adding to watchlist:", (event.target as IDBRequest).error);
-        reject("Error adding to watchlist");
-    }
+      console.error(
+        "Error adding to watchlist:",
+        (event.target as IDBRequest).error,
+      );
+      reject("Error adding to watchlist");
+    };
   });
 };
 
@@ -66,7 +72,10 @@ export const removeFromWatchlist = async (id: number): Promise<void> => {
     };
 
     request.onerror = (event) => {
-      console.error("Error removing from watchlist:", (event.target as IDBRequest).error);
+      console.error(
+        "Error removing from watchlist:",
+        (event.target as IDBRequest).error,
+      );
       reject("Error removing from watchlist");
     };
   });
@@ -84,39 +93,47 @@ export const getWatchlist = async (): Promise<WatchlistItem[]> => {
     };
 
     request.onerror = (event) => {
-      console.error("Error getting watchlist:", (event.target as IDBRequest).error);
+      console.error(
+        "Error getting watchlist:",
+        (event.target as IDBRequest).error,
+      );
       reject("Error getting watchlist");
     };
   });
 };
 
 export const checkWatchlistStatus = async (id: number): Promise<boolean> => {
-    const db = await initDB();
-    return new Promise((resolve, reject) => {
-        const transaction = db.transaction([STORE_NAME], "readonly");
-        const store = transaction.objectStore(STORE_NAME);
-        const request = store.get(id);
+  const db = await initDB();
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([STORE_NAME], "readonly");
+    const store = transaction.objectStore(STORE_NAME);
+    const request = store.get(id);
 
-        request.onsuccess = (event) => {
-            resolve(!!(event.target as IDBRequest).result);
-        };
-        
-        request.onerror = (event) => {
-             console.error("Error checking watchlist status:", (event.target as IDBRequest).error);
-             resolve(false); // Default to false on error
-        }
-    })
-}
+    request.onsuccess = (event) => {
+      resolve(!!(event.target as IDBRequest).result);
+    };
+
+    request.onerror = (event) => {
+      console.error(
+        "Error checking watchlist status:",
+        (event.target as IDBRequest).error,
+      );
+      resolve(false); // Default to false on error
+    };
+  });
+};
 
 // Helper to convert Movie/Show to WatchlistItem
 export const mapToWatchlistItem = (item: Movie | Show): WatchlistItem => {
-    const isMovie = 'title' in item;
-    return {
-        id: item.id,
-        title: isMovie ? (item as Movie).title : (item as Show).name,
-        poster_path: item.poster_path,
-        media_type: (item as any).media_type || (isMovie ? 'movie' : 'tv'),
-        vote_average: item.vote_average,
-        release_date: isMovie ? (item as Movie).release_date : (item as Show).first_air_date
-    };
-}
+  const isMovie = "title" in item;
+  return {
+    id: item.id,
+    title: isMovie ? (item as Movie).title : (item as Show).name,
+    poster_path: item.poster_path,
+    media_type: (item as any).media_type || (isMovie ? "movie" : "tv"),
+    vote_average: item.vote_average,
+    release_date: isMovie
+      ? (item as Movie).release_date
+      : (item as Show).first_air_date,
+  };
+};

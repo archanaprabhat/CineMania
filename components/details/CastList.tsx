@@ -1,18 +1,20 @@
-import Image from "next/image"
-import { getProfileUrl } from "@/utils/imageUtils"
-import { Cast } from "@/types/movie"
+import Image from "next/image";
+import { getProfileUrl } from "@/utils/imageUtils";
+import { Cast } from "@/types/movie";
 
 interface CastListProps {
-  cast: Cast[]
+  cast: Cast[];
 }
 
 export function CastList({ cast }: CastListProps) {
-  if (!cast || cast.length === 0) return null
+  if (!cast || cast.length === 0) return null;
 
   return (
     <section className="space-y-6">
       <div className="flex items-center justify-between">
-        <h2 className="text-3xl font-bold text-foreground dark:text-white tracking-tight">Top Cast</h2>
+        <h2 className="text-3xl font-bold text-foreground dark:text-white tracking-tight">
+          Top Cast
+        </h2>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
         {cast.slice(0, 8).map((person) => (
@@ -33,12 +35,16 @@ export function CastList({ cast }: CastListProps) {
               <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
             <div>
-              <p className="font-semibold text-foreground dark:text-white text-lg leading-tight">{person.name}</p>
-              <p className="text-sm text-muted-foreground dark:text-gray-400">{person.character}</p>
+              <p className="font-semibold text-foreground dark:text-white text-lg leading-tight">
+                {person.name}
+              </p>
+              <p className="text-sm text-muted-foreground dark:text-gray-400">
+                {person.character}
+              </p>
             </div>
           </div>
         ))}
       </div>
     </section>
-  )
+  );
 }

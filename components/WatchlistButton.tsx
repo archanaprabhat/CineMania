@@ -13,7 +13,10 @@ interface WatchlistButtonProps {
   className?: string;
 }
 
-export default function WatchlistButton({ item, className }: WatchlistButtonProps) {
+export default function WatchlistButton({
+  item,
+  className,
+}: WatchlistButtonProps) {
   const { addToWatchlist, removeFromWatchlist, isInWatchlist } = useWatchlist();
   const { addToast } = useToast();
   const [inWatchlist, setInWatchlist] = useState(false);
@@ -27,7 +30,7 @@ export default function WatchlistButton({ item, className }: WatchlistButtonProp
   const handleToggle = async (e: React.MouseEvent) => {
     e.preventDefault(); // Prevent Link navigation if inside a card
     e.stopPropagation();
-    
+
     if (isLoading) return;
     setIsLoading(true);
 
@@ -53,8 +56,10 @@ export default function WatchlistButton({ item, className }: WatchlistButtonProp
       onClick={handleToggle}
       className={cn(
         "relative flex h-8 w-8 items-center justify-center rounded-full bg-background/60 backdrop-blur-sm transition-transform hover:scale-110 active:scale-95 disabled:opacity-50",
-        inWatchlist ? "text-primary" : "text-muted-foreground hover:text-primary",
-        className
+        inWatchlist
+          ? "text-primary"
+          : "text-muted-foreground hover:text-primary",
+        className,
       )}
       disabled={isLoading}
       aria-label={inWatchlist ? "Remove from watchlist" : "Add to watchlist"}

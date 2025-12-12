@@ -7,7 +7,7 @@ let actorsCache: any = null;
 
 export async function getMovies() {
   if (moviesCache) return moviesCache;
-  
+
   const filePath = path.join(process.cwd(), "data", "movies.json");
   const fileContents = fs.readFileSync(filePath, "utf8");
   moviesCache = JSON.parse(fileContents);
@@ -41,4 +41,9 @@ export async function getMovieBySlug(slug: string) {
 export async function getShowBySlug(slug: string) {
   const shows = await getShows();
   return shows.find((show: any) => show.id.toString() === slug.toString());
+}
+
+export async function getActorBySlug(slug: string) {
+  const actors = await getActors();
+  return actors.find((actor: any) => actor.id.toString() === slug.toString());
 }

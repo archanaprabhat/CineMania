@@ -11,7 +11,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Cinematic",
-  description: "A movie directory built with Next.js, TypeScript, and Tailwind CSS",
+  description:
+    "A movie directory built with Next.js, TypeScript, and Tailwind CSS",
   icons: {
     icon: "/favicon.ico",
   },

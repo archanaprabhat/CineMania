@@ -1,26 +1,23 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import Link from "next/link"
-import { motion } from "framer-motion"
-import { Star } from "lucide-react"
-import { Card, CardContent } from "@/components/ui/card"
-import { Movie } from "@/types/movie"
-import WatchlistButton from "./WatchlistButton"
-import { getPosterUrl } from "@/utils/imageUtils"
+import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { Star } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Movie } from "@/types/movie";
+import WatchlistButton from "./WatchlistButton";
+import { getPosterUrl } from "@/utils/imageUtils";
 
 interface MovieCardProps {
-  movie: Movie
+  movie: Movie;
 }
 
 export default function MovieCard({ movie }: MovieCardProps) {
-  const posterUrl = getPosterUrl(movie.poster_path)
+  const posterUrl = getPosterUrl(movie.poster_path);
 
   return (
-    <motion.div
-      whileHover={{ scale: 1.05 }}
-      transition={{ duration: 0.2 }}
-    >
+    <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }}>
       <Card className="overflow-hidden border-0 bg-transparent shadow-none group relative">
         <div className="absolute top-2 right-2 z-20 opacity-0 group-hover:opacity-100 transition-opacity">
           <WatchlistButton item={movie} />
@@ -47,7 +44,11 @@ export default function MovieCard({ movie }: MovieCardProps) {
                 {movie.title}
               </h3>
               <div className="flex items-center justify-between text-xs text-muted-foreground mt-1">
-                <span>{movie.release_date ? new Date(movie.release_date).getFullYear() : 'N/A'}</span>
+                <span>
+                  {movie.release_date
+                    ? new Date(movie.release_date).getFullYear()
+                    : "N/A"}
+                </span>
                 <div className="flex items-center gap-1">
                   <Star className="h-3 w-3 fill-yellow-500 text-yellow-500" />
                   <span>{movie.vote_average.toFixed(1)}</span>
@@ -58,5 +59,5 @@ export default function MovieCard({ movie }: MovieCardProps) {
         </Link>
       </Card>
     </motion.div>
-  )
+  );
 }

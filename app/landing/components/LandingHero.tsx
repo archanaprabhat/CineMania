@@ -18,7 +18,7 @@ export default function LandingHero() {
 
       {/* Dark Overlay for Contrast */}
       <div className="absolute inset-0 bg-black/60" />
-      
+
       {/* Gradient Overlays for Depth and Legibility */}
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent pointer-events-none" />
       <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-black/40 to-transparent pointer-events-none" />
@@ -54,7 +54,9 @@ export default function LandingHero() {
               className="group relative inline-flex h-16 items-center justify-center rounded-full bg-primary px-12 text-xl font-bold text-white transition-all hover:scale-105 hover:shadow-[0_0_40px_-10px_rgba(93,162,255,0.6)]"
             >
               <span className="mr-2">Start Browsing</span>
-              <span className="transition-transform group-hover:translate-x-1">→</span>
+              <span className="transition-transform group-hover:translate-x-1">
+                →
+              </span>
             </Link>
           </motion.div>
         </div>

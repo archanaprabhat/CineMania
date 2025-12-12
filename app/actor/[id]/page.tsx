@@ -1,46 +1,54 @@
-import { Movie, Show } from "@/types/movie"
-import Image from "next/image"
-import MovieCard from "@/components/MovieCard"
-import ShowCard from "@/components/ShowCard"
-import actors from "@/data/actors.json"
+import { Movie, Show } from "@/types/movie";
+import Image from "next/image";
+import MovieCard from "@/components/MovieCard";
+import ShowCard from "@/components/ShowCard";
+import actors from "@/data/actors.json";
+
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   return actors.map((actor) => ({
     id: actor.id.toString(),
-  }))
+  }));
 }
 
 export async function generateMetadata({ params }: { params: { id: string } }) {
-  const actor = actors.find((a) => a.id.toString() === params.id)
+  const actor = actors.find((a) => a.id.toString() === params.id);
 
   if (!actor) {
     return {
       title: "Actor Not Found",
-    }
+    };
   }
 
   return {
     title: `${actor.name} - Cinematic`,
     description: `Movies and TV shows featuring ${actor.name}.`,
-  }
+  };
 }
 
 export default function ActorPage({ params }: { params: { id: string } }) {
-  const actor = actors.find((a) => a.id.toString() === params.id)
+  const actor = actors.find((a) => a.id.toString() === params.id);
 
   if (!actor) {
-    return <div className="container mx-auto py-12 text-center">Actor not found</div>
+    return (
+      <div className="container mx-auto py-12 text-center">Actor not found</div>
+    );
   }
 
   const profileUrl = actor.profile_path
     ? `https://image.tmdb.org/t/p/original${actor.profile_path}`
-    : "/placeholder-user.png"
+    : "/placeholder-user.png";
 
   // Filter and sort credits
   const credits = actor.credits.cast
-    .filter((credit: any) => credit.poster_path && (credit.media_type === "movie" || credit.media_type === "tv"))
+    .filter(
+      (credit: any) =>
+        credit.poster_path &&
+        (credit.media_type === "movie" || credit.media_type === "tv"),
+    )
     .sort((a: any, b: any) => b.popularity - a.popularity)
-    .slice(0, 12)
+    .slice(0, 12);
 
   return (
     <div className="min-h-screen bg-background pb-12">
@@ -56,7 +64,9 @@ export default function ActorPage({ params }: { params: { id: string } }) {
               />
             </div>
             <div className="space-y-4 text-center md:text-left">
-              <h1 className="text-4xl font-bold tracking-tight">{actor.name}</h1>
+              <h1 className="text-4xl font-bold tracking-tight">
+                {actor.name}
+              </h1>
               <p className="text-muted-foreground max-w-2xl">
                 Known for their work in {actor.known_for_department}.
               </p>
@@ -85,9 +95,9 @@ export default function ActorPage({ params }: { params: { id: string } }) {
                 original_language: credit.original_language,
                 original_title: credit.original_title,
                 video: credit.video,
-                media_type: "movie"
-              }
-              return <MovieCard key={`movie-${credit.id}`} movie={movie} />
+                media_type: "movie",
+              };
+              return <MovieCard key={`movie-${credit.id}`} movie={movie} />;
             } else {
               const show: Show = {
                 id: credit.id,
@@ -103,13 +113,13 @@ export default function ActorPage({ params }: { params: { id: string } }) {
                 original_language: credit.original_language,
                 original_name: credit.original_name,
                 origin_country: credit.origin_country,
-                media_type: "tv"
-              }
-              return <ShowCard key={`show-${credit.id}`} show={show} />
+                media_type: "tv",
+              };
+              return <ShowCard key={`show-${credit.id}`} show={show} />;
             }
           })}
         </div>
       </div>
     </div>
-  )
+  );
 }

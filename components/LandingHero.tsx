@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
-import { Play, Info } from "lucide-react"
-import Link from "next/link"
-import Image from "next/image"
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import { Play, Info } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function LandingHero() {
   return (
@@ -38,7 +38,8 @@ export default function LandingHero() {
               </span>
             </h1>
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed font-light max-w-xl">
-              A fast, static directory built with Next.js. Explore a curated collection of cinematic masterpieces and binge-worthy series.
+              A fast, static directory built with Next.js. Explore a curated
+              collection of cinematic masterpieces and binge-worthy series.
             </p>
           </motion.div>
 
@@ -49,7 +50,10 @@ export default function LandingHero() {
             className="flex items-center gap-4 pt-4"
           >
             <Link href="/home">
-              <Button size="lg" className="h-14 px-8 rounded-full text-lg font-semibold bg-white text-black hover:bg-gray-200 gap-2 transition-transform hover:scale-105">
+              <Button
+                size="lg"
+                className="h-14 px-8 rounded-full text-lg font-semibold bg-white text-black hover:bg-gray-200 gap-2 transition-transform hover:scale-105"
+              >
                 <Play className="h-5 w-5 fill-black" />
                 Start Browsing
               </Button>
@@ -68,5 +72,5 @@ export default function LandingHero() {
         <div className="w-px h-16 bg-linear-to-b from-transparent via-white/50 to-transparent" />
       </motion.div>
     </div>
-  )
+  );
 }

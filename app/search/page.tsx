@@ -1,44 +1,56 @@
-import { getMovies, getShows, getActors } from "@/utils/fetchData"
-import MovieCard from "@/components/MovieCard"
-import ShowCard from "@/components/ShowCard"
-import Image from "next/image"
-import Link from "next/link"
+import { getMovies, getShows, getActors } from "@/utils/fetchData";
+import MovieCard from "@/components/MovieCard";
+import ShowCard from "@/components/ShowCard";
+import Image from "next/image";
+import Link from "next/link";
 
 interface SearchPageProps {
-  searchParams: { q?: string }
+  searchParams: { q?: string };
 }
 
 export default async function SearchPage({ searchParams }: SearchPageProps) {
-  const query = searchParams.q?.toLowerCase() || ""
-  
+  const query = searchParams.q?.toLowerCase() || "";
+
   const [movies, shows, actors] = await Promise.all([
     getMovies(),
     getShows(),
-    getActors()
-  ])
+    getActors(),
+  ]);
 
-  const filteredMovies = query 
-    ? movies.filter((movie: any) => 
-        movie.title.toLowerCase().includes(query) ||
-        movie.credits?.cast?.some((actor: any) => actor.name.toLowerCase().includes(query))
+  const filteredMovies = query
+    ? movies.filter(
+        (movie: any) =>
+          movie.title.toLowerCase().includes(query) ||
+          movie.credits?.cast?.some((actor: any) =>
+            actor.name.toLowerCase().includes(query),
+          ),
       )
-    : []
+    : [];
 
   const filteredShows = query
-    ? shows.filter((show: any) => 
-        show.name.toLowerCase().includes(query) ||
-        show.credits?.cast?.some((actor: any) => actor.name.toLowerCase().includes(query))
+    ? shows.filter(
+        (show: any) =>
+          show.name.toLowerCase().includes(query) ||
+          show.credits?.cast?.some((actor: any) =>
+            actor.name.toLowerCase().includes(query),
+          ),
       )
-    : []
+    : [];
 
   const filteredActors = query
     ? actors.filter((actor: any) => actor.name.toLowerCase().includes(query))
-    : []
+    : [];
 
-  const hasResults = filteredMovies.length > 0 || filteredShows.length > 0 || filteredActors.length > 0
+  const hasResults =
+    filteredMovies.length > 0 ||
+    filteredShows.length > 0 ||
+    filteredActors.length > 0;
 
-  const queryRaw = searchParams.q || ""
-  const displayQuery = decodeURIComponent(queryRaw).replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/&#039;/g, "'")
+  const queryRaw = searchParams.q || "";
+  const displayQuery = decodeURIComponent(queryRaw)
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, "&")
+    .replace(/&#039;/g, "'");
 
   return (
     <main className="min-h-screen bg-background pt-24 pb-12 px-4 md:px-8">
@@ -53,7 +65,11 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
 
         {query && !hasResults && (
           <div className="text-center py-20">
-            <p className="text-xl text-muted-foreground">No results found for {'"'}{searchParams.q}{'"'}</p>
+            <p className="text-xl text-muted-foreground">
+              No results found for {'"'}
+              {searchParams.q}
+              {'"'}
+            </p>
           </div>
         )}
 
@@ -87,7 +103,10 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
             <h2 className="text-2xl font-semibold text-foreground">Actors</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
               {filteredActors.map((actor: any) => (
-                <div key={actor.id} className="group relative aspect-2/3 overflow-hidden rounded-md bg-muted">
+                <div
+                  key={actor.id}
+                  className="group relative aspect-2/3 overflow-hidden rounded-md bg-muted"
+                >
                   {actor.profile_path ? (
                     <Image
                       src={`https://image.tmdb.org/t/p/w500${actor.profile_path}`}
@@ -101,7 +120,9 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
                     </div>
                   )}
                   <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
-                    <p className="text-white font-medium text-center w-full">{actor.name}</p>
+                    <p className="text-white font-medium text-center w-full">
+                      {actor.name}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -110,5 +131,5 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
         )}
       </div>
     </main>
-  )
+  );
 }

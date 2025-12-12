@@ -13,7 +13,10 @@ interface DetailWatchlistButtonProps {
   className?: string;
 }
 
-export default function DetailWatchlistButton({ item, className }: DetailWatchlistButtonProps) {
+export default function DetailWatchlistButton({
+  item,
+  className,
+}: DetailWatchlistButtonProps) {
   const { addToWatchlist, removeFromWatchlist, isInWatchlist } = useWatchlist();
   const { addToast } = useToast();
   const [inWatchlist, setInWatchlist] = useState(false);
@@ -50,7 +53,7 @@ export default function DetailWatchlistButton({ item, className }: DetailWatchli
       className={cn(
         "bg-white text-black hover:bg-gray-200 font-bold px-8 rounded-full h-12 gap-2 transition-all transform hover:scale-105",
         inWatchlist && "bg-green-500 hover:bg-green-600 text-white", // Optional active state styling
-        className
+        className,
       )}
       onClick={handleToggle}
       disabled={isLoading}

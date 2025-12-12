@@ -1,54 +1,56 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { Telescope, Plus, Volume2, VolumeX } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Movie } from "@/types/movie"
-import { getBackdropUrl } from "@/utils/imageUtils"
+import { useState, useEffect } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { Telescope, Plus, Volume2, VolumeX } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Movie } from "@/types/movie";
+import { getBackdropUrl } from "@/utils/imageUtils";
 
 interface HeroSlideProps {
-  movie: Movie
-  isActive: boolean
+  movie: Movie;
+  isActive: boolean;
 }
 
 export default function HeroSlide({ movie, isActive }: HeroSlideProps) {
-  const [trailerKey, setTrailerKey] = useState<string | null>(null)
-  const [isMuted, setIsMuted] = useState(true)
-  const [showVideo, setShowVideo] = useState(false)
+  const [trailerKey, setTrailerKey] = useState<string | null>(null);
+  const [isMuted, setIsMuted] = useState(true);
+  const [showVideo, setShowVideo] = useState(false);
 
   useEffect(() => {
     if (movie.videos?.results) {
       const trailer = movie.videos.results.find(
-        (video) => video.type === "Trailer" && video.site === "YouTube"
-      )
+        (video) => video.type === "Trailer" && video.site === "YouTube",
+      );
       if (trailer) {
-        setTrailerKey(trailer.key)
+        setTrailerKey(trailer.key);
       }
     }
-  }, [movie])
+  }, [movie]);
 
   useEffect(() => {
-    let timer: NodeJS.Timeout
+    let timer: NodeJS.Timeout;
 
     if (isActive && trailerKey) {
       // Delay showing video slightly to allow transition to finish
-      timer = setTimeout(() => setShowVideo(true), 1000)
+      timer = setTimeout(() => setShowVideo(true), 1000);
     } else {
-      setShowVideo(false)
+      setShowVideo(false);
     }
 
-    return () => clearTimeout(timer)
-  }, [isActive, trailerKey])
+    return () => clearTimeout(timer);
+  }, [isActive, trailerKey]);
 
-  const backdropUrl = getBackdropUrl(movie.backdrop_path, 'w1280')
+  const backdropUrl = getBackdropUrl(movie.backdrop_path, "w1280");
 
   return (
     <div className="relative h-full w-full overflow-hidden">
       {/* Background Image */}
       {backdropUrl && (
-        <div className={`absolute inset-0 transition-opacity duration-1000 ${showVideo ? 'opacity-0' : 'opacity-100'}`}>
+        <div
+          className={`absolute inset-0 transition-opacity duration-1000 ${showVideo ? "opacity-0" : "opacity-100"}`}
+        >
           <Image
             src={backdropUrl}
             alt={movie.title}
@@ -78,23 +80,28 @@ export default function HeroSlide({ movie, isActive }: HeroSlideProps) {
       {/* Content */}
       <div className="absolute inset-0 flex items-center">
         <div className="container mx-auto px-4 pt-20">
-          <div className="max-w-2xl space-y-6 animate-in fade-in slide-in-from-bottom-10 duration-1000 fill-mode-both" style={{ animationDelay: '500ms' }}>
+          <div
+            className="max-w-2xl space-y-6 animate-in fade-in slide-in-from-bottom-10 duration-1000 fill-mode-both"
+            style={{ animationDelay: "500ms" }}
+          >
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white drop-shadow-2xl">
               {movie.title}
             </h1>
-            
+
             <p className="text-lg md:text-xl text-gray-200 line-clamp-3 drop-shadow-md max-w-xl">
               {movie.overview}
             </p>
 
             <div className="flex items-center gap-4 pt-4">
               <Link href={`/movies/${movie.id}`}>
-                <Button size="lg" className="bg-white text-black hover:bg-white/90 gap-2 text-lg px-8 h-14">
+                <Button
+                  size="lg"
+                  className="bg-white text-black hover:bg-white/90 gap-2 text-lg px-8 h-14"
+                >
                   <Telescope className="h-6 w-6 fill-black" />
                   Explore
                 </Button>
               </Link>
-              
             </div>
           </div>
         </div>
@@ -106,9 +113,13 @@ export default function HeroSlide({ movie, isActive }: HeroSlideProps) {
           onClick={() => setIsMuted(!isMuted)}
           className="absolute bottom-32 right-12 p-3 rounded-full bg-black/50 text-white hover:bg-black/70 transition-colors border border-white/20 backdrop-blur-sm z-20 pointer-events-auto"
         >
-          {isMuted ? <VolumeX className="h-6 w-6" /> : <Volume2 className="h-6 w-6" />}
+          {isMuted ? (
+            <VolumeX className="h-6 w-6" />
+          ) : (
+            <Volume2 className="h-6 w-6" />
+          )}
         </button>
       )}
     </div>
-  )
+  );
 }

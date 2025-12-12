@@ -54,7 +54,7 @@ export interface Movie {
     results: Video[];
   };
   video?: boolean;
-  media_type?: 'movie';
+  media_type?: "movie";
   tagline?: string;
   runtime?: number;
   status?: string;
@@ -81,7 +81,7 @@ export interface Show {
   videos?: {
     results: Video[];
   };
-  media_type?: 'tv';
+  media_type?: "tv";
   tagline?: string;
   status?: string;
   type?: string;

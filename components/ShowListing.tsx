@@ -1,90 +1,99 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import { useSearchParams } from "next/navigation"
-import ShowCard from "@/components/ShowCard"
-import SearchAndFilterBar from "@/components/SearchAndFilterBar"
-import { Show } from "@/types/movie"
-import { motion } from "framer-motion"
+import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
+import ShowCard from "@/components/ShowCard";
+import SearchAndFilterBar from "@/components/SearchAndFilterBar";
+import { Show } from "@/types/movie";
+import { motion } from "framer-motion";
 
 interface ShowListingProps {
-  initialShows: Show[]
+  initialShows: Show[];
 }
 
 export default function ShowListing({ initialShows }: ShowListingProps) {
-  const searchParams = useSearchParams()
-  const initialGenre = searchParams.get("genre") || "all"
-  const initialQuery = searchParams.get("q") || ""
+  const searchParams = useSearchParams();
+  const initialGenre = searchParams.get("genre") || "all";
+  const initialQuery = searchParams.get("q") || "";
 
-  const [shows] = useState<Show[]>(initialShows)
-  const [filteredShows, setFilteredShows] = useState<Show[]>(initialShows)
-  const [searchQuery, setSearchQuery] = useState(initialQuery)
-  const [selectedGenre, setSelectedGenre] = useState(initialGenre)
-  const [sortOption, setSortOption] = useState("popular")
-  const [selectedYear, setSelectedYear] = useState("all")
-  const [minRating, setMinRating] = useState("0")
+  const [shows] = useState<Show[]>(initialShows);
+  const [filteredShows, setFilteredShows] = useState<Show[]>(initialShows);
+  const [searchQuery, setSearchQuery] = useState(initialQuery);
+  const [selectedGenre, setSelectedGenre] = useState(initialGenre);
+  const [sortOption, setSortOption] = useState("popular");
+  const [selectedYear, setSelectedYear] = useState("all");
+  const [minRating, setMinRating] = useState("0");
 
   useEffect(() => {
-    let result = [...shows]
+    let result = [...shows];
 
     // Search (Name or Actor)
     if (searchQuery) {
-      const query = searchQuery.toLowerCase()
-      result = result.filter((show) =>
-        show.name.toLowerCase().includes(query) ||
-        show.credits?.cast?.some(actor => actor.name.toLowerCase().includes(query))
-      )
+      const query = searchQuery.toLowerCase();
+      result = result.filter(
+        (show) =>
+          show.name.toLowerCase().includes(query) ||
+          show.credits?.cast?.some((actor) =>
+            actor.name.toLowerCase().includes(query),
+          ),
+      );
     }
 
     // Genre Filter
     if (selectedGenre && selectedGenre !== "all") {
-      result = result.filter((show) => 
-        show.genre_ids.includes(parseInt(selectedGenre))
-      )
+      result = result.filter((show) =>
+        show.genre_ids.includes(parseInt(selectedGenre)),
+      );
     }
 
     // Year Filter
     if (selectedYear && selectedYear !== "all") {
-      result = result.filter((show) => 
-        new Date(show.first_air_date).getFullYear().toString() === selectedYear
-      )
+      result = result.filter(
+        (show) =>
+          new Date(show.first_air_date).getFullYear().toString() ===
+          selectedYear,
+      );
     }
 
     // Min Rating Filter
     if (minRating && minRating !== "0") {
-      result = result.filter((show) => 
-        show.vote_average >= parseInt(minRating)
-      )
+      result = result.filter(
+        (show) => show.vote_average >= parseInt(minRating),
+      );
     }
 
     // Sort
     if (sortOption === "popular") {
-      result.sort((a, b) => b.popularity - a.popularity)
+      result.sort((a, b) => b.popularity - a.popularity);
     } else if (sortOption === "rating") {
-      result.sort((a, b) => b.vote_average - a.vote_average)
+      result.sort((a, b) => b.vote_average - a.vote_average);
     } else if (sortOption === "newest") {
-      result.sort((a, b) => new Date(b.first_air_date).getTime() - new Date(a.first_air_date).getTime())
+      result.sort(
+        (a, b) =>
+          new Date(b.first_air_date).getTime() -
+          new Date(a.first_air_date).getTime(),
+      );
     } else if (sortOption === "az") {
-      result.sort((a, b) => a.name.localeCompare(b.name))
+      result.sort((a, b) => a.name.localeCompare(b.name));
     }
 
-    setFilteredShows(result)
-  }, [shows, searchQuery, selectedGenre, sortOption, selectedYear, minRating])
+    setFilteredShows(result);
+  }, [shows, searchQuery, selectedGenre, sortOption, selectedYear, minRating]);
 
   const container = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.05
-      }
-    }
-  }
+        staggerChildren: 0.05,
+      },
+    },
+  };
 
   const item = {
     hidden: { opacity: 0, y: 20 },
-    show: { opacity: 1, y: 0 }
-  }
+    show: { opacity: 1, y: 0 },
+  };
 
   return (
     <div className="container mx-auto px-4 py-8 space-y-8">
@@ -99,7 +108,7 @@ export default function ShowListing({ initialShows }: ShowListingProps) {
         />
       </div>
 
-      <motion.div 
+      <motion.div
         className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 lg:gap-8"
         variants={container}
         initial="hidden"
@@ -118,5 +127,5 @@ export default function ShowListing({ initialShows }: ShowListingProps) {
         </div>
       )}
     </div>
-  )
+  );
 }

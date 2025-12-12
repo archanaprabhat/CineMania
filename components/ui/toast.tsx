@@ -1,6 +1,12 @@
 "use client";
 
-import React, { createContext, useContext, useState, useCallback, ReactNode } from "react";
+import React, {
+  createContext,
+  useContext,
+  useState,
+  useCallback,
+  ReactNode,
+} from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { X, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -38,7 +44,7 @@ export function ToastProvider({ children }: { children: ReactNode }) {
         }, duration);
       }
     },
-    [removeToast]
+    [removeToast],
   );
 
   return (
@@ -76,9 +82,12 @@ function ToastContainer({
             layout
             className={cn(
               "pointer-events-auto flex items-center gap-3 rounded-xl border p-4 shadow-lg backdrop-blur-md",
-              toast.type === "success" && "border-green-500/20 bg-green-500/10 text-green-500",
-              toast.type === "error" && "border-red-500/20 bg-red-500/10 text-red-500",
-              toast.type === "info" && "border-border bg-background/80 text-foreground"
+              toast.type === "success" &&
+                "border-green-500/20 bg-green-500/10 text-green-500",
+              toast.type === "error" &&
+                "border-red-500/20 bg-red-500/10 text-red-500",
+              toast.type === "info" &&
+                "border-border bg-background/80 text-foreground",
             )}
           >
             {toast.type === "success" && <Check className="h-5 w-5" />}

@@ -1,7 +1,19 @@
 "use client";
 
-import React, { createContext, useContext, useEffect, useState, useCallback } from "react";
-import { WatchlistItem, addToWatchlist, removeFromWatchlist, getWatchlist, mapToWatchlistItem } from "@/utils/indexedDB";
+import React, {
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+  useCallback,
+} from "react";
+import {
+  WatchlistItem,
+  addToWatchlist,
+  removeFromWatchlist,
+  getWatchlist,
+  mapToWatchlistItem,
+} from "@/utils/indexedDB";
 import { Movie, Show } from "@/types/movie";
 
 interface WatchlistContextType {
@@ -12,7 +24,9 @@ interface WatchlistContextType {
   refreshWatchlist: () => Promise<void>;
 }
 
-const WatchlistContext = createContext<WatchlistContextType | undefined>(undefined);
+const WatchlistContext = createContext<WatchlistContextType | undefined>(
+  undefined,
+);
 
 export function WatchlistProvider({ children }: { children: React.ReactNode }) {
   const [watchlist, setWatchlist] = useState<WatchlistItem[]>([]);
@@ -34,9 +48,9 @@ export function WatchlistProvider({ children }: { children: React.ReactNode }) {
     const watchlistItem = mapToWatchlistItem(item);
     // Ensure media_type is set correctly if not present in the object
     if (!watchlistItem.media_type) {
-         // Best guess fallback if needed, or rely on mapper handling specific props
-         if ('title' in item) watchlistItem.media_type = 'movie';
-         if ('name' in item) watchlistItem.media_type = 'tv';
+      // Best guess fallback if needed, or rely on mapper handling specific props
+      if ("title" in item) watchlistItem.media_type = "movie";
+      if ("name" in item) watchlistItem.media_type = "tv";
     }
 
     await addToWatchlist(watchlistItem);

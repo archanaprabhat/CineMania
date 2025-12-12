@@ -32,7 +32,6 @@ export default async function LandingPage() {
 
   return (
     <main className="min-h-screen bg-background text-foreground selection:bg-primary selection:text-white">
-
       <Stats
         movieCount={movies.length}
         showCount={shows.length}

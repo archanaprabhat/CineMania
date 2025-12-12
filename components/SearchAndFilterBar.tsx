@@ -1,24 +1,24 @@
-"use client"
+"use client";
 
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select"
-import { Search, X } from "lucide-react"
-import { useState, useEffect } from "react"
-import genres from "@/data/genres.json"
+} from "@/components/ui/select";
+import { Search, X } from "lucide-react";
+import { useState, useEffect } from "react";
+import genres from "@/data/genres.json";
 
 interface SearchAndFilterBarProps {
-  onSearch: (query: string) => void
-  onFilter: (genreId: string) => void
-  onSort: (sort: string) => void
-  onYearChange: (year: string) => void
-  onRatingChange: (rating: string) => void
+  onSearch: (query: string) => void;
+  onFilter: (genreId: string) => void;
+  onSort: (sort: string) => void;
+  onYearChange: (year: string) => void;
+  onRatingChange: (rating: string) => void;
 }
 
 export default function SearchAndFilterBar({
@@ -28,36 +28,42 @@ export default function SearchAndFilterBar({
   onYearChange,
   onRatingChange,
 }: SearchAndFilterBarProps) {
-  const [searchQuery, setSearchQuery] = useState("")
-  const [selectedGenre, setSelectedGenre] = useState<string | undefined>(undefined)
-  const [selectedSort, setSelectedSort] = useState<string | undefined>(undefined)
-  const [selectedYear, setSelectedYear] = useState<string | undefined>(undefined)
-  const [minRating, setMinRating] = useState<string | undefined>(undefined)
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedGenre, setSelectedGenre] = useState<string | undefined>(
+    undefined,
+  );
+  const [selectedSort, setSelectedSort] = useState<string | undefined>(
+    undefined,
+  );
+  const [selectedYear, setSelectedYear] = useState<string | undefined>(
+    undefined,
+  );
+  const [minRating, setMinRating] = useState<string | undefined>(undefined);
 
   // Debounce search
   useEffect(() => {
     const timer = setTimeout(() => {
-      onSearch(searchQuery)
-    }, 500)
+      onSearch(searchQuery);
+    }, 500);
 
-    return () => clearTimeout(timer)
-  }, [searchQuery, onSearch])
+    return () => clearTimeout(timer);
+  }, [searchQuery, onSearch]);
 
   const handleClearFilters = () => {
-    setSearchQuery("")
-    setSelectedGenre(undefined)
-    setSelectedSort(undefined)
-    setSelectedYear(undefined)
-    setMinRating(undefined)
-    onSearch("")
-    onFilter("all")
-    onSort("popular")
-    onYearChange("all")
-    onRatingChange("0")
-  }
+    setSearchQuery("");
+    setSelectedGenre(undefined);
+    setSelectedSort(undefined);
+    setSelectedYear(undefined);
+    setMinRating(undefined);
+    onSearch("");
+    onFilter("all");
+    onSort("popular");
+    onYearChange("all");
+    onRatingChange("0");
+  };
 
-  const currentYear = new Date().getFullYear()
-  const years = Array.from({ length: 50 }, (_, i) => currentYear - i)
+  const currentYear = new Date().getFullYear();
+  const years = Array.from({ length: 50 }, (_, i) => currentYear - i);
 
   return (
     <div className="flex flex-col gap-4 bg-background/50 p-4 rounded-lg backdrop-blur-sm border">
@@ -72,13 +78,13 @@ export default function SearchAndFilterBar({
             onChange={(e) => setSearchQuery(e.target.value)}
           />
         </div>
-        
+
         <div className="flex flex-wrap gap-2 md:gap-4 flex-1">
-          <Select 
-            value={selectedGenre} 
+          <Select
+            value={selectedGenre}
             onValueChange={(value) => {
-              setSelectedGenre(value)
-              onFilter(value)
+              setSelectedGenre(value);
+              onFilter(value);
             }}
           >
             <SelectTrigger className="w-[140px]">
@@ -94,11 +100,11 @@ export default function SearchAndFilterBar({
             </SelectContent>
           </Select>
 
-          <Select 
-            value={selectedYear} 
+          <Select
+            value={selectedYear}
             onValueChange={(value) => {
-              setSelectedYear(value)
-              onYearChange(value)
+              setSelectedYear(value);
+              onYearChange(value);
             }}
           >
             <SelectTrigger className="w-[120px]">
@@ -114,11 +120,11 @@ export default function SearchAndFilterBar({
             </SelectContent>
           </Select>
 
-          <Select 
-            value={minRating} 
+          <Select
+            value={minRating}
             onValueChange={(value) => {
-              setMinRating(value)
-              onRatingChange(value)
+              setMinRating(value);
+              onRatingChange(value);
             }}
           >
             <SelectTrigger className="w-[120px]">
@@ -134,11 +140,11 @@ export default function SearchAndFilterBar({
             </SelectContent>
           </Select>
 
-          <Select 
-            value={selectedSort} 
+          <Select
+            value={selectedSort}
             onValueChange={(value) => {
-              setSelectedSort(value)
-              onSort(value)
+              setSelectedSort(value);
+              onSort(value);
             }}
           >
             <SelectTrigger className="w-[140px]">
@@ -152,10 +158,14 @@ export default function SearchAndFilterBar({
             </SelectContent>
           </Select>
 
-          {(searchQuery || selectedGenre || selectedSort || selectedYear || minRating) && (
-            <Button 
-              variant="ghost" 
-              size="icon" 
+          {(searchQuery ||
+            selectedGenre ||
+            selectedSort ||
+            selectedYear ||
+            minRating) && (
+            <Button
+              variant="ghost"
+              size="icon"
               onClick={handleClearFilters}
               aria-label="Clear filters"
               className="text-muted-foreground hover:text-foreground ml-auto md:ml-0"
@@ -166,5 +176,5 @@ export default function SearchAndFilterBar({
         </div>
       </div>
     </div>
-  )
+  );
 }
