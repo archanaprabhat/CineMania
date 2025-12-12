@@ -1,3 +1,4 @@
+import { Suspense } from "react"
 import { getMovies } from "@/utils/fetchData"
 import { Movie } from "@/types/movie"
 import MovieListing from "@/components/MovieListing"
@@ -50,7 +51,9 @@ export default async function GenrePage({ params }: { params: { slug: string } }
           </p>
         </div>
       </div>
-      <MovieListing initialMovies={filteredMovies} />
+      <Suspense>
+        <MovieListing initialMovies={filteredMovies} />
+      </Suspense>
     </div>
   )
 }
