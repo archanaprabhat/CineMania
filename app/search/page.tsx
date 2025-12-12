@@ -105,7 +105,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
               {filteredActors.map((actor: any) => (
                 <div
                   key={actor.id}
-                  className="group relative aspect-2/3 overflow-hidden rounded-md bg-muted"
+                  className="group relative aspect-[2/3] overflow-hidden rounded-md bg-muted"
                 >
                   {actor.profile_path ? (
                     <Image

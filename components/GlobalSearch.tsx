@@ -157,9 +157,9 @@ export default function GlobalSearch() {
                   {result.poster_path || result.profile_path ? (
                     <Image
                       src={
-                        getPosterUrl(result.poster_path, "w92") ||
-                        getProfileUrl(result.profile_path, "w45") ||
-                        ""
+                        result.type === "actor"
+                          ? getProfileUrl(result.profile_path, "w185") || ""
+                          : getPosterUrl(result.poster_path, "w92")
                       }
                       alt={result.title || result.name || ""}
                       fill
