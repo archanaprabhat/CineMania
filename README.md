@@ -31,10 +31,6 @@ The application uses a **simulated backend** approach:
 - **WatchlistContext**: Manages the application-wide state for the user's watchlist.
 - **IndexedDB**: Used directly (via `utils/indexedDB.ts`) to persist watchlist data across sessions without a backend database.
 
-Here’s a clean, polished, copy-paste-ready version — concise, consistent, and recruiter-friendly:
-
----
-
 ## Dataset Used
 
 This project uses static data generated from **TMDB (The Movie Database)**.
@@ -77,8 +73,6 @@ data/
 
 ## AI Prompts Used
 
-Below are the exact prompts used during development:
-
 ### 1. Project Setup Prompt
 
 “Scaffold a full project setup using Next.js 14 App Router, TypeScript, Tailwind CSS, ESLint + Prettier, Lucide React, and Framer Motion.
@@ -100,10 +94,6 @@ Make sure the paths, slugs, and data types are correct.”
 
 * Add **GSAP animations** and light **Three.js** effects for richer interactivity and motion.
 * Add more refined **micro-interactions** on cards and buttons.
-
----
-
-If you want, I can now integrate this directly into your full README with perfect formatting.
 
 
 ## Getting Started
