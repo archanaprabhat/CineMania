@@ -109,7 +109,8 @@ Make sure the paths, slugs, and data types are correct.”
    ```bash
    npm run dev
    ```
-
 3. **Open the app**:
    Navigate to [https://cinmatic.vercel.app/](https://cinmatic.vercel.app/).
-   Missed mentioning this in the video: a simple custom error page: https://cinmatic.vercel.app/idk
+
+   Missed mentioning this in the video, a simple custom error page https://cinmatic.vercel.app/idk
+
